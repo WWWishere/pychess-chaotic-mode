@@ -1,0 +1,6 @@
+.amazon .cg-wrap piece.white {
+    background-image: url('../../images/pieces/disguised/w.svg');
+}
+.amazon .cg-wrap piece.black {
+    background-image: url('../../images/pieces/disguised/b.svg');
+}

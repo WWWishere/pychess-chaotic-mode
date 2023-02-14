@@ -1,0 +1,50 @@
+.amazon .cg-wrap piece.y-piece.white {
+    background-image: url('../../images/pieces/cburnettf/Chess_Amlt45.svg');
+}
+.amazon .cg-wrap piece.y-piece.black {
+    background-image: url('../../images/pieces/cburnettf/Chess_Amdt45.svg');
+}
+.amazon .cg-wrap piece.f-piece.white {
+    background-image: url('../../images/pieces/cburnettf/Chess_flt45.svg');
+}
+.amazon .cg-wrap piece.f-piece.black {
+    background-image: url('../../images/pieces/cburnettf/Chess_fdt45.svg');
+}
+
+
+.amazon .cg-wrap piece.p-piece.white {
+    background-image: url('../../images/pieces/green/wP.svg');
+}
+.amazon .cg-wrap piece.b-piece.white {
+    background-image: url('../../images/pieces/green/wB.svg');
+}
+.amazon .cg-wrap piece.n-piece.white {
+    background-image: url('../../images/pieces/green/wN.svg');
+}
+.amazon .cg-wrap piece.r-piece.white {
+    background-image: url('../../images/pieces/green/wR.svg');
+}
+.amazon .cg-wrap piece.q-piece.white {
+    background-image: url('../../images/pieces/green/wQ.svg');
+}
+.amazon .cg-wrap piece.k-piece.white {
+    background-image: url('../../images/pieces/green/wK.svg');
+}
+.amazon .cg-wrap piece.p-piece.black {
+    background-image: url('../../images/pieces/green/bP.svg');
+}
+.amazon .cg-wrap piece.b-piece.black {
+    background-image: url('../../images/pieces/green/bB.svg');
+}
+.amazon .cg-wrap piece.n-piece.black {
+    background-image: url('../../images/pieces/green/bN.svg');
+}
+.amazon .cg-wrap piece.r-piece.black {
+    background-image: url('../../images/pieces/green/bR.svg');
+}
+.amazon .cg-wrap piece.q-piece.black {
+    background-image: url('../../images/pieces/green/bQ.svg');
+}
+.amazon .cg-wrap piece.k-piece.black {
+    background-image: url('../../images/pieces/green/bK.svg');
+}
