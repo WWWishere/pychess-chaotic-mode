@@ -97,6 +97,18 @@
 .chaotic .cg-wrap piece.pp-piece.black {
     background-image: url('../../images/pieces/dragon/bE.svg');
 }
+.chaotic .cg-wrap piece.pg-piece.white {
+    background-image: url('../../images/pieces/dragon/wU.svg');
+}
+.chaotic .cg-wrap piece.pg-piece.black {
+    background-image: url('../../images/pieces/dragon/bU.svg');
+}
+.chaotic .cg-wrap piece.ph-piece.white {
+    background-image: url('../../images/pieces/dragon/wU.svg');
+}
+.chaotic .cg-wrap piece.ph-piece.black {
+    background-image: url('../../images/pieces/dragon/bU.svg');
+}
 
 .chaotic .cg-wrap piece.p-piece.white {
     background-image: url('../../images/pieces/dragon/wP.svg');

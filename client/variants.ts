@@ -875,7 +875,7 @@ export const VARIANTS: Record<string, Variant> = {
         chess960: true, icon: "P", icon960: ",",
         boardFamily: "chaotic11x10", pieceFamily: "chaotic",
         pieceRow: ["k", "p", "a", "c", "d", "f", "g", "h", "i", "j", "m", "n", "o", "s", "t", "w"],
-        promotion: { type: "shogi", roles: ["p", "f", "w", "d", "j"] },
+        promotion: { type: "shogi", roles: ["p", "f", "w", "d", "j", "g", "u"] },
         rules: { enPassant: true },
     }),
 };
