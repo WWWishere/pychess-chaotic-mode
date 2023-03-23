@@ -1,0 +1,50 @@
+<h1 id="chennishttpsgithubcomgbtamipychess-variantsblobmasterstaticiconschennissvg-网球棋"><img src="https://github.com/gbtami/pychess-variants/blob/master/static/icons/Chennis.svg" alt="Chennis" /> 网球棋</h1>
+<p><img src="https://github.com/gbtami/pychess-variants/blob/master/static/images/ChennisGuide/Chennis.png" alt="Chennis" /></p>
+<h2 id="背景">背景</h2>
+<p>网球棋(Chennis)是 Couch Tomato 于 2021 年推出的棋类游戏，最初的设想是制作一个京都将棋的变种。由于京都将棋已经被完全解决，网球棋的目的是创作一个更为平衡的游戏，同时引入不同的棋子使得国际象棋玩家更容易上手。为尽量减少将棋类棋子的出现，就需要更多的远距离棋子和更大的棋盘。然后，为了控制将杀的难度，给王增加了活动范围的限制。因为双方王的活动范围像一个网球场，因此定名为网球棋。由于引入了炮、限制了活动范围，某种意义上也可以说网球棋也借鉴了中国象棋，这意味着网球棋结合了许多流行棋类中的元素。在平衡方面，目前双方的胜率为先手（白）胜率约为60%。</p>
+<h2 id="简介与基本规则">简介与基本规则</h2>
+<p>游戏分黑白双方，白棋先走。所有的棋子（王除外）都有两种形态，每次行动之后都必须变换成另一种形态。在游戏界面上，即将变换成的棋子会以红色/蓝色提示。</p>
+<p><img src="https://github.com/gbtami/pychess-variants/blob/master/static/images/ChennisGuide/Swap.png" alt="Piece Swaps" /></p>
+<p>当你吃掉对方棋子时，那个被吃的棋子会返回你的手中，类似将棋的驹台。这些棋子可供打入，与将棋的打入相同。但是，你可以在打入时<strong>自由选择以哪一形态进入棋盘</strong>。例如：对于“车-兵”棋子，您可以任选它是当作车打入，还是当作兵打入。</p>
+<h3 id="棋盘">棋盘</h3>
+<p>网球棋的棋盘为7x7，如下图：</p>
+<p><img src="https://github.com/gbtami/pychess-variants/blob/master/static/images/ChennisGuide/ChennisCourt.png" alt="Chak" /></p>
+<p>所有棋子（王除外）可以在棋盘任意位置行动。棋盘分为四个区域，和双方王的行动范围有关：</p>
+<p><strong>白方半场|White's Court</strong>: 仅白王可在此区域行动。</p>
+<p><strong>黑方半场|Black's Court</strong>: 仅黑王可在此区域行动。</p>
+<p><strong>球网区|Net</strong>, 棋盘中间的5格区域。这是双方王的公共区域，双方的王均可在此区域行动。</p>
+<p><strong>边线|Sidelines</strong>, 棋盘两边的两列，双方的王均<strong>不可</strong>在此区域行动。</p>
+<h3 id="游戏胜败目标">游戏胜败目标</h3>
+<p>获胜有以下两种方式：</p>
+<p><strong>将杀 | Checkmate</strong> - 攻击对方国王，且对方无法解除将军。</p>
+<p><strong>困毙 | Stalemate</strong> - 使对方无子可动，即使王未被攻击（与国际象棋的逼和不同）。</p>
+<h2 id="棋子">棋子</h2>
+<p>王和国际象棋的王完全相同，八方行动一格。王只能在自己的半场和球网区移动。注意：您可以在己方半场用王攻击对方位于球网区的王。</p>
+<p>其余的棋子每方有4枚。它们分别是：</p>
+<p>车-兵、象-卒、马-兵长、炮-士。</p>
+<p>其中，车、马、象、兵的走法与国际象棋完全相同，但兵取消了向前两格的走法。</p>
+<p>每个棋子的形态大致可以分为直走形态和斜走形态，一个棋子行动之后会切换成另一种形态。<br />
+下面是另外四个棋子的走法。</p>
+<h3 id="卒--soldier-s">卒 | Soldier (S)</h3>
+<p><img src="https://github.com/gbtami/pychess-variants/blob/master/static/images/ChennisGuide/Soldier.png" alt="Soldier" /></p>
+<p>卒可以向前、左、右行动一格。它是象的对应形态。</p>
+<h3 id="兵长--mayor-m">兵长 | Mayor (M)</h3>
+<p><img src="https://github.com/gbtami/pychess-variants/blob/master/static/images/ChennisGuide/Mayor.png" alt="Mayor" /></p>
+<p>兵长走法和王一样，即八方行动一格。它是马的对应形态。</p>
+<h3 id="士--ferz-f">士 | Ferz (F)</h3>
+<p><img src="https://github.com/gbtami/pychess-variants/blob/master/static/images/ChennisGuide/Ferz.png" alt="Ferz" /></p>
+<p>士可以斜走一格。它是炮的对应形态。</p>
+<h3 id="炮--cannon-c">炮 | Cannon (C)</h3>
+<p><img src="https://github.com/gbtami/pychess-variants/blob/master/static/images/ChennisGuide/CannonMove.png" alt="Cannon Move" /></p>
+<p><img src="https://github.com/gbtami/pychess-variants/blob/master/static/images/ChennisGuide/CannonAttack.png" alt="Cannon Attack" /></p>
+<p>炮的走法和中国象棋相同，即直行任意距离，隔一子吃子。它是士的对应形态。</p>
+<h2 id="棋子价值">棋子价值</h2>
+<p>准确的棋子价值难以计算。在这类具有打入设定的棋中，具体的局面往往比死板的棋子价值更为重要。在四个棋子中，通常认为马-兵长的组合作用更大，因为两种形态都很灵活。</p>
+<h2 id="策略">策略</h2>
+<p>游戏推出时间较短，策略尚在研究中。</p>
+<p>对于新玩家的一条建议：<br />
+<strong>务必记住王的行动范围！</strong><br />
+<strong>务必记住王的行动范围！</strong><br />
+<strong>务必记住王的行动范围！</strong><br />
+<em>（重要的事情说三遍）</em><br />
+您的王只能在己方半场和球网区行动，<strong>不能走到边线</strong>。这意味着边线的棋子可以近距离攻击王而不会受到王的反击。</p>

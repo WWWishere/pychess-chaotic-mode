@@ -1,0 +1,191 @@
+<h1 id="synochesshttpsgithubcomgbtamipychess-variantsblobmasterstaticiconssynochesssvg-synochess"><img src="https://github.com/gbtami/pychess-variants/blob/master/static/icons/synochess.svg" alt="Synochess" /> Synochess</h1>
+<p><img src="https://github.com/gbtami/pychess-variants/blob/master/static/images/CVariantsGuide/Synochess.png" alt="Synochess" /></p>
+<p>El Synochess es una variante de Ajedrez diseñada en 2020 por Couch Tomato. La idea del juego era crear una variante donde el ejército del Ajedrez occidental luchara contra el ejército del Xiangqi (Ajedrez Chino) de una forma equilibrada. Dado que las circunstancias en Xiangqi son muy distintas (tablero más grande, piezas en general más débiles), era difícil conseguirlo sin añadir grandes mejoras al ejército basado en Xiangqi. Sin embargo, fue posible hacerlo, sin perder la sensación de estar jugando Xiangqi cuando se juega con ese bando. En este juego las Blancas representan el Ajedrez occidental y reciben el nombre de Reino, mientras que el ejército Rojo representa la mezcla de Xiangqi y Janggi (Ajedrez Coreano) y se denomina Dinastía. Todas las piezas de la Dinastía recuerdan a su contrapartida bien en Xiangqi o bien en Janggi y deberían resultar familiares para quienes hayan practicado dichos juegos.<br />
+El nombre Synochess se basa en un nombre previo, Sinochess, pero fue cambiado porque la Dinastía se convirtió en menos "Sino" (como en Chino) y más una mezcla de Chino y Coreano. En cambio el prefijo syn- significa "juntos", y el juego representa dos ramas históricas diferentes del ajedrez juntas en una.<br />
+ </p>
+<h2 id="reglas-generales">Reglas Generales</h2>
+<ol>
+<li>La posición inicial es como se ve arriba.</li>
+<li>Las únicas piezas que los bandos tienen en común son los Reyes, Caballos y Torres (llamadas Carruajes en el bando de la Dinastía).</li>
+<li>El Reino (Blancas) siempre mueve primero.</li>
+<li>La Dinastía (Rojas) no puede enrocar.</li>
+<li>Los Peones del Reino solamente pueden promocionar a sus propias piezas (Dama, Torre, Caballo, Alfil). Los soldados de la Dinastía no promocionan.</li>
+</ol>
+<p>************************************</p>
+<p>¡Hay cinco reglas adicionales que los nuevos jugadores deben tener especialmente en cuenta! (Además de aprender las nuevas piezas)</p>
+<p>************************************</p>
+<ol>
+<li><strong>Reyes Enfrentados</strong> – Al igual que en Xiangqi, <strong>los Reyes no pueden estar enfrentados (en la misma columna o fila) sin piezas por el medio</strong>, como si fuesen dos Torres atacándose mutuamente. Ten esto en cuenta, porque las piezas pueden estar clavadas en el medio, y también pueden ser protegidas por el Rey aliado.</li>
+<li><strong>Refuerzos de Soldados</strong> – Las Rojas empiezan con dos Soldados en mano. En vez de mover una pieza en el tablero, la Dinastía puede soltar un Soldado en cualquier casilla vacante en la fila 5 (fila 4 de la Dinastía), la misma fila donde los Soldados comienzan.</li>
+<li><strong>Camp mate</strong> – Un Rey que llega a la última fila (sin ponerse en jaque) gana la partida.</li>
+<li><strong>Ahogado</strong> – Como en Xiangqi, el ahogado supone la derrota (en Ajedrez, serían tablas).</li>
+<li><strong>Jaque perpetuo</strong> – Como en Xiangqi, el jaque perpetuo (repetir la misma posición tres veces, con todas las jugadas siendo jaque) suponen la derrota (en Ajedrez, serían tablas).</li>
+</ol>
+<h2 id="piezas-de-la-dinastía">Piezas de la Dinastía</h2>
+<p>Hay cuatro nuevas unidades propias de la Dinastía: 6 Soldados (2 comienzan en mano), 2 Cañones, 2 Elefantes y 1 Consejero.<br />
+Los Carruajes son iguales a las Torres y usan la misma abreviatura (R) - la diferencia es puramente estética. De modo similar, los Reyes son lo mismo, pero su aspecto es diferente. A pesar de que el Caballo ("Horse") son diferentes en Xiangqi y Janggi, la versión de la Dinastía se denomina Caballo ("Knight") y mueve exactamente igual que el Caballo del Reino.<br />
+La Dinastía no tiene ninguna pieza tan fuerte como la Dama; sin embargo tiene más piezas menores que el Reino.<br />
+Los detalles y diagramas de cada pieza se muestran a continuación.</p>
+<h3 id="soldado-s">Soldado (S)</h3>
+<p><img src="https://github.com/gbtami/pychess-variants/blob/master/static/images/CVariantsGuide/Soldier.png" alt="Soldado" /></p>
+<p>El Soldado puede mover un espacio hacia adelante o hacia los lados. Es exactamente lo mismo que un Soldado que ha cruzado el Río en Xiangqi y lo mismo que un Soldado de Janggi. El Soldado, a diferencia del Peón, no puede promocionar.<br />
+Dado que el Soldado no puede mover hacia atrás, solamente puede mover hacia los lados en la última fila. Evita ponerlos en esta situación a menos que te sirva para llegar a jaque mate o camp mate. Los Soldados son más fuertes cuando van en pares de forma que se protegen mutuamente.</p>
+<h3 id="elefante-e">Elefante (E)</h3>
+<p><img src="https://github.com/gbtami/pychess-variants/blob/master/static/images/CVariantsGuide/ElephantDynasty.png" alt="Elefante" /></p>
+<p>El Elefante es una pieza "saltadora" que se mueven diagonalmente una o dos casillas. Puede saltar en diagonal sobre una pieza para mover o capturar en la segunda casilla. La pieza es esencialmente una versión mejorada del Elefante de Xiangqi; es exactamente lo mismo que el Elefante del Shako.</p>
+<h3 id="cañón-c">Cañón (C)</h3>
+<p><img src="https://github.com/gbtami/pychess-variants/blob/master/static/images/CVariantsGuide/CannonDynasty.png" alt="Cañón" /></p>
+<p>El Cañón también es una pieza que salta. Es esencialmente una Torre que para moverse necesita la intervención de una pieza intermedia (denominada "pantalla") para saltar sobre ella y poder mover o capturar a lo largo de la misma línea. <strong><em><strong>Un Cañón no puede saltar sobre otro Cañón.</em></strong></strong> Esta versión del Cañón es exactamente la misma que en Janggi. Dado que requiere de otra pieza para mover o capturar, el Cañón tiene menos valor en los finales.<br />
+ </p>
+<h3 id="consejero">Consejero</h3>
+<p><img src="https://github.com/gbtami/pychess-variants/blob/master/static/images/CVariantsGuide/Advisor.png" alt="Consejero" /></p>
+<p>El Consejero mueve y captura exactamente como un Rey. A diferencia del Rey, puede ser capturado. Aunque no hay ninguna pieza equivalente en Xiangqi o Janggi, no hay Palacio en Synochess. Por tanto, el Consejero necesitaba ser más fuerte para proteger a su propio Rey, y uno puede pensar en sus movimientos como una combinación de la fuerza de los dos Consejeros del Xiangqi para cubrir las 8 casillas.</p>
+<h2 id="valor-de-las-piezas">Valor de las Piezas</h2>
+<p>Los valores precisos de las piezas son desconocidos. Sin embargo, estos son los valores usados por Fairy Stockfish, con la aclaración de que son valores genéricos, no necesariamente específicos a Synochess.</p>
+<table>
+<thead>
+<tr>
+<th id="pieza_del_reino">Pieza del Reino</th>
+<th id="valor_(temprano_/_tarde)">Valor (Temprano / Tarde)</th>
+<th id="pieza_de_la_dinastía">Pieza de la Dinastía</th>
+<th id="valor_(temprano_/_tarde)">Valor (Temprano / Tarde)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Peón</td>
+<td>120 / 213</td>
+<td>Soldado</td>
+<td>200 / 270</td>
+</tr>
+<tr>
+<td>Dama</td>
+<td>2538 / 2682</td>
+<td>Consejero</td>
+<td>700 / 900</td>
+</tr>
+<tr>
+<td>Alfil</td>
+<td>825 / 915</td>
+<td>Elefante</td>
+<td>700 / 650</td>
+</tr>
+<tr>
+<td>Caballo</td>
+<td>781 / 854</td>
+<td>Cañón</td>
+<td>700 / 650</td>
+</tr>
+<tr>
+<td>Torre</td>
+<td>1276 / 1380</td>
+<td>Caballo</td>
+<td>781 / 854</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Carruaje</td>
+<td>1276 / 1380</td>
+</tr>
+</tbody>
+</table>
+<p>Para aquellos que quieren una aproximación más simplificada, esta tabla puede servir:</p>
+<table>
+<thead>
+<tr>
+<th id="pieza_del_reino">Pieza del Reino</th>
+<th id="valor">Valor</th>
+<th id="pieza_de_la_dinastía">Pieza de la Dinastía</th>
+<th id="valor">Valor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Peón</td>
+<td>1</td>
+<td>Soldado</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Dama</td>
+<td>9</td>
+<td>Elefante</td>
+<td>2.75</td>
+</tr>
+<tr>
+<td>Alfil</td>
+<td>3</td>
+<td>Consejero</td>
+<td>2.75</td>
+</tr>
+<tr>
+<td>Caballo</td>
+<td>3</td>
+<td>Cañón</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Torre</td>
+<td>5</td>
+<td>Caballo</td>
+<td>3</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Carruaje</td>
+<td>5</td>
+</tr>
+</tbody>
+</table>
+<h2 id="estrategia">Estrategia</h2>
+<p>El juego es todavía reciente, así que la estrategia está en desarrollo. La mayoría de información disponible se basa en el juego del ordenador. Como la mayoría de juegos, se puede aprender mucho jugando contra una I.A. de alto nivel, perdiendo y analizando las causas de la derrota.</p>
+<h3 id="aperturas">Aperturas</h3>
+<p>Al igual que en Xiangqi, las primeras pocas jugadas de la apertura son muy limitadas antes de que se abran multitud de ramas. En una gran mayoría de las partidas (~90%), Stockfish abre con 1. e3. 1. b3 es la jugada más habitual después de e3. Otras jugadas incluyen g3, f3 y c3, pero son extremadamente raras. Todas las demás aperturas para el primer movimiento son subóptimas. b3 es la segunda jugada más habitual para las Blancas, aunque c3 es jugada también ocasionalmente. Para el tercer movimiento de las Blancas hay ya mucha variedad, aunque Bb2 es la jugada más común.<br />
+Respecto a la Dinastía, la primera jugada más habitual es Nc6 (70%), o en menor medida, Nf6 (30%). Ninguna otra jugada ha sido intentada por Stockfish. La segunda jugada consiste en avanzar el otro Caballo o mover un Cañón a una posición central (Ce6+ &gt; Cd6). A partir de ese punto existe una gran ramificación de posibilidades.</p>
+<p>Por tanto, la "apertura estándar de Nc6" es como sigue:</p>
+<ol>
+<li>e3 Nc6</li>
+<li>b3 …Nf6/Ce6+/Cd6</li>
+</ol>
+<p>La línea más habitual es:</p>
+<ol>
+<li>e3 Nc6</li>
+<li>b3 Nf6</li>
+<li>Bb2 Ee7</li>
+</ol>
+<p>Para jugadores que prefieren Nf6, la línea más habitual es:</p>
+<ol>
+<li>e3 Nf6</li>
+<li>b3 Ce6+</li>
+<li>Be2 Nc6</li>
+</ol>
+<p>Como en Xiangqi, los ataques descubiertos son habituales. ¡Presta atención a los mismos!</p>
+<p>También como en Xiangqi y quizás incluso con más frecuencia, utilizar los Reyes de forma ofensiva es importante. Es muy sencillo clavar una pieza entre los Reyes. Por ejemplo, un Peón solitario entre los Reyes no puede atacar.</p>
+<p>El jugador de la Dinastía debe jugar agresivamente. Comienza con una posición avanzada, pero con piezas en general más débiles. Debe buscar cambios de piezas en su favor. Los Soldados valen más que los Peones, así que la Dinastía debería intentar que al Reino le cueste eliminar a cada Soldado.</p>
+<p>Como Dinastía, trata de evitar mover los Soldados mucho. Su formación inicial ya es una estructura óptima (en pares que se protegen mutuamente). Puedes deslizarlos para abrir líneas o crear ataques para tus Cañones o Carruajes. Puedes usarlos como refuerzo para reemplazar a Soldados perdidos. Si los sueltas demasiado temprano, puedes estar bloqueando tu propio juego.</p>
+<h3 id="consejos-para-el-reino-blancas">Consejos para el Reino (Blancas)</h3>
+<ul>
+<li><strong>Movimientos de Peones en la apertura – ¡paso a paso!</strong> – Esto se basa en los patrones de Stockfish, que siempre escoge avanzar los peones una casilla en vez de dos en la apertura. Probablemente se debe a que es importante mantener una estructura de Peones sólida para luchar contra los molestos Soldados de la Dinastía.</li>
+<li><strong>EVITA iniciar un cambio de piezas por el Cañón</strong> - El Cañón, aunque sea muy amenazador al principio de la partida, se devalúa rápidamente a lo largo de la partida. De hecho, eliminar de forma efectiva al resto de piezas elimina a los Cañones, que no dispondrían de piezas que le sirvan de pantalla y quedarían expuestos a ser eliminados fácilmente.</li>
+<li><strong>¡Protege a la Dama!</strong> - La Dama tiene aún más valor que en Ajedrez estándar, ya que es la única gran baza que el Reino tiene sobre la Dinastía. Si necesitas cambiarla, asegúrate de que al menos uno de los Carruajes enemigos es eliminado con ello.</li>
+<li><strong>Cambia, cambia, cambia</strong> – Teniendo en cuenta los dos últimos consejos, si sigues cambiando piezas, manteniendo tu Dama y los Cañones del rival, llegarás a un final favorable. La Dinastía tiene una coordinación de piezas compleja, que puede ser rota cuando le quedan pocas piezas. El Reino busca una partida abierta y sencilla, mientras que la Dinastía busca sacar provecho de sus posibilidades de ataque al comienzo.</li>
+</ul>
+<h3 id="consejos-para-la-dinastía-rojas">Consejos para la Dinastía (Rojas)</h3>
+<ul>
+<li><strong>¡Conoce los movimientos de las piezas!</strong> – Puede sonar obvio, pero muchos principiantes se olvidan de que los Soldados pueden move hacia los lados.</li>
+<li><strong>Estructura de Soldados – NO MUEVAS TUS SOLDADOS</strong> – Puede sonar contraintuitivo en comparación con los Peones del Ajedrez estándar, pero los Soldados realmente no deberían estar moviéndose como parte de tu desarrollo O para la mayoría de ataques. La posición inicial de tus Soldados es la formación más fuerte posible. Cada uno defiende a otro y previenen que las Blancas coloquen ninguna pieza en la quinta fila. En esta formación, cada par vale seguramente más que una pieza menor. Mantenlos así y úsalos como pantallas para tus Cañones para poner presión contra el desarrollo de las Blancas. Además, a pesar de las palabras "NO MUEVAS" en mayúsculas y negrita, si tienes que hacerlo, obviamente tienes que hacerlo.</li>
+<li><strong>Soldados de Refuerzo – Hazlo de forma esporádica</strong> – Como hemos dicho, la estructura de Soldados ya es óptima. Añadir refuerzos sin ningún motivo va a dañar tu estructura y arruinar tu tempo. Usa los refuerzos cuando las Blancas estén a punto de atacar un Soldado con un Peón apoyado por otra pieza. Si un Soldado es cambiado por alguna pieza de las Blancas, puedes soltar el refuerzo a continuación para reparar tu estructura.</li>
+<li><strong>¡Cambia tus Cañones tan rápido como puedas!</strong> – Como hemos mencionado en los consejos para el Reino, el Cañón se devalúa rápidamente a lo largo de la partida. Sí, pueden producir tácticas devastadoras, pero el jugador de la Dinastía debería tener en cuenta que hay una ventana muy pequeña para ello (inicio del mediojuego). Es recomendable cambiar uno de tus Cañones al principio de la partida (en las primeras jugadas). Esto permite al segundo Cañón moverse más libremente.</li>
+<li><strong>Activa tus Carruajes</strong> – Este consejo recuerda a la estrategia básica del Xiangqi. La Dinastía comienza con columnas abiertas para los Carruajes - asegúrate de usarlas para poner los Carruajes en juego. Una vez que las Torres enemigas salen a jugar, esta ventaja desaparece rápidamente.</li>
+</ul>
+<h3 id="táctica">Táctica</h3>
+<p><strong>El Mate del Loco</strong></p>
+<p>Si eres Blancas, evita esta situación. No pierdas de vista a los Cañones.</p>
+<p><img src="https://github.com/gbtami/pychess-variants/blob/master/static/images/CVariantsGuide/FoolsMate.png" alt="Mate del Loco" /></p>
+<p>En parte esto explica por qué 1. e3 es una apertura estándar. Y cuando no se hace 1. e3, se suele hacer 2. e3. Después, si un Cañón ataca, puede ser bloqueado por un Alfil o Caballo, que quedará clavado durante un rato. 1. e4 no es recomendablte porque de hecho no amenaza nada (el Peón está clavado debido a los Reyes enfrentados).</p>
+<p><strong>MataDamas</strong></p>
+<p>Esta es una táctica especialmente devastadora que puede causar la derrota inevitable de las Blancas. La situación se produce cuando un Carruaje tiene una columna abierta (con la cual ya cuenta al comienzo), y el Cañón tiene un camino abierto hacia la primera fila (b1 o g1). Esa casilla puede o no contener un Caballo, pero si está vacía la táctica solo funciona si el Caballo no la cubre.</p>
+<p><img src="https://github.com/gbtami/pychess-variants/blob/master/static/images/CVariantsGuide/Queenslayer.png" alt="MataDamas" /></p>
+<p>Una vez que esta posición ocurre, el Carruaje puede tomar el Peón, forzando a la Torre a retomar el carruaje. Esto expone la casilla b1/g1 para el Cañón, que o bien amenazará Y clavará la Dama en el caso de b1, o bien hará una enfilada a la Dama con el jaque desde g1. En cualquier caso, se pierde la Dama.</p>

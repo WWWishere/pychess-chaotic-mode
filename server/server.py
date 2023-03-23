@@ -9,6 +9,7 @@ from operator import neg
 from urllib.parse import urlparse
 from datetime import datetime, timezone, timedelta
 from sys import platform
+os.environ['FISHNET_KEYS'] = '{"akey": "gbtami", "aaaaaa":"NoPlayers"}'
 
 if platform not in ("win32", "darwin"):
     import uvloop

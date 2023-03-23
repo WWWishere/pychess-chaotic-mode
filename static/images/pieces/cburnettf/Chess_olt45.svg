@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+	Kentaur (fekete)
+	Készült: knight-b.svg és commonr-b.svg felhasználásával
+	Felhasználási feltételek: Nevezd meg! - Így add tovább! (Creative Commons)
+	Uray M. János
+	2018
+-->
+
+<svg
+   version="1.1"
+   width="45"
+   height="45"
+   viewBox="0 0 45 45"
+   id="svg1905"
+   sodipodi:docname="Chess_olt.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1909" />
+  <sodipodi:namedview
+     id="namedview1907"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="5.1817669"
+     inkscape:cx="31.649436"
+     inkscape:cy="19.491421"
+     inkscape:window-width="1280"
+     inkscape:window-height="649"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1905" />
+  <!-- huszár -->
+  <!-- köztiszt -->
+  <path
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.5874;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+     id="path1043"
+     sodipodi:type="arc"
+     sodipodi:cx="22.652452"
+     sodipodi:cy="23.198294"
+     sodipodi:rx="16"
+     sodipodi:ry="16"
+     sodipodi:start="0"
+     sodipodi:end="6.2753409"
+     sodipodi:open="true"
+     sodipodi:arc-type="chord"
+     d="M 38.652452,23.198294 A 16,16 0 0 1 22.68383,39.198263 16,16 0 0 1 6.6525755,23.261049 16,16 0 0 1 22.55832,7.1985706 16,16 0 0 1 38.65196,23.072784 Z" />
+  <path
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.5874;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+     id="path1149"
+     sodipodi:type="arc"
+     sodipodi:cx="17.561577"
+     sodipodi:cy="23.061632"
+     sodipodi:rx="4.0526719"
+     sodipodi:ry="4.1491637"
+     sodipodi:start="0"
+     sodipodi:end="6.2753409"
+     sodipodi:open="true"
+     sodipodi:arc-type="chord"
+     d="m 21.614249,23.061632 a 4.0526719,4.1491637 0 0 1 -4.044724,4.149156 4.0526719,4.1491637 0 0 1 -4.060589,-4.132882 4.0526719,4.1491637 0 0 1 4.028798,-4.165366 4.0526719,4.1491637 0 0 1 4.07639,4.116545 z" />
+  <path
+     style="fill:#ffffff;stroke:#000000;stroke-width:1.5874;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+     d="m 26.631842,26.438858 -0.192984,-7.719374 c 0,0 2.502667,-0.245247 3.570211,0.289476 0.651992,0.326578 1.359918,0.916422 1.447383,1.640367 0.09146,0.756994 0.181987,1.668821 -1.061414,2.026336 -1.19627,0.343963 -3.769643,0.10294 -3.95618,0.289477"
+     id="path1205"
+     sodipodi:nodetypes="ccaasc" />
+</svg>

@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   viewBox="0 0 1200 1000"
+   id="svg91"
+   sodipodi:docname="12x10map.svg"
+   width="1536"
+   height="1280"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs95" />
+  <sodipodi:namedview
+     id="namedview93"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.25"
+     inkscape:cx="952"
+     inkscape:cy="496"
+     inkscape:window-width="1280"
+     inkscape:window-height="649"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg91"
+     showguides="false" />
+  <path
+     style="opacity:1;fill:#fff2b5;stroke:none;stroke-width:2.95276;stroke-linejoin:bevel;fill-opacity:1"
+     d="M 0,300 H 300 V 400 H 700 V 300 h 300 v 100 h 200 V 0 H 0 Z"
+     id="path398"
+     sodipodi:nodetypes="ccccccccccc" />
+  <path
+     style="opacity:1;fill:#fff2b5;stroke:none;stroke-width:2.95276;stroke-linejoin:bevel;fill-opacity:1"
+     d="M 0,400 H 200 V 500 H 500 V 700 H 600 V 800 H 700 V 700 h 300 V 500 h 200 v 500 H 0 Z"
+     id="path454"
+     sodipodi:nodetypes="ccccccccccccccc" />
+  <path
+     style="opacity:1;fill:#fff2b5;stroke:#000000;stroke-width:15.625;stroke-linejoin:bevel;fill-opacity:1;stroke-opacity:0.25;stroke-dasharray:none"
+     d="M 800,400 V 500 H 600 V 600 H 900 V 400 Z"
+     id="path456"
+     sodipodi:nodetypes="ccccccc" />
+  <path
+     style="opacity:1;fill:#6292ff;fill-opacity:1;stroke:none;stroke-width:2.95276;stroke-linejoin:bevel"
+     d="M 0,300 V 400 H 200 V 500 H 500 V 700 H 600 V 800 H 700 V 700 h 300 V 500 h 200 V 400 H 900 V 600 H 600 V 500 H 800 V 400 H 300 V 300 Z"
+     id="path554"
+     sodipodi:nodetypes="ccccccccccccccccccccccc" />
+  <path
+     style="opacity:1;fill:#6292ff;fill-opacity:1;stroke:none;stroke-width:15.625;stroke-linejoin:bevel;stroke-opacity:0.25;stroke-dasharray:none"
+     d="m 700,300 v 100 h 300 V 300 Z"
+     id="path556"
+     sodipodi:nodetypes="ccccc" />
+  <path
+     style="opacity:1;fill:#83ff57;fill-opacity:1;stroke:#005f00;stroke-width:15.625;stroke-linejoin:bevel;stroke-opacity:0.31081083;stroke-dasharray:none"
+     d="M 0,500 H 100 V 600 H 400 V 800 H 500 V 900 H 800 V 800 h 300 V 600 h 100 v 400 H 0 Z"
+     id="path1220"
+     sodipodi:nodetypes="ccccccccccccccc" />
+  <path
+     style="opacity:1;fill:#83ff57;fill-opacity:1;stroke:#005f00;stroke-width:15.625;stroke-linejoin:bevel;stroke-opacity:0.31081083;stroke-dasharray:none"
+     d="M 0,0 V 200 H 400 V 300 H 600 V 200 h 500 v 100 h 100 V 0 Z"
+     id="path1222"
+     sodipodi:nodetypes="ccccccccccc" />
+  <g
+     id="Frame"
+     fill="none"
+     style="opacity:0.45">
+    <rect
+       width="1000"
+       height="800"
+       id="rect64"
+       x="0"
+       y="0" />
+  </g>
+  <g
+     id="Dark"
+     fill="#8ca2ad"
+     style="opacity:0.25;fill:#000000;fill-opacity:1">
+    <g
+       id="raz"
+       style="fill:#000000;fill-opacity:1">
+      <g
+         id="dva"
+         style="fill:#000000;fill-opacity:1">
+        <g
+           id="tri"
+           style="fill:#000000;fill-opacity:1">
+          <g
+             id="che"
+             style="fill:#000000;fill-opacity:1">
+            <rect
+               x="100"
+               width="100"
+               height="100"
+               id="rect67"
+               y="0"
+               style="fill:#000000;fill-opacity:1" />
+            <rect
+               x="300"
+               width="100"
+               height="100"
+               id="rect69"
+               y="0"
+               style="fill:#000000;fill-opacity:1" />
+            <rect
+               x="500"
+               width="100"
+               height="100"
+               id="rect71"
+               y="0"
+               style="fill:#000000;fill-opacity:1" />
+            <rect
+               x="700"
+               width="100"
+               height="100"
+               id="rect73"
+               y="0"
+               style="fill:#000000;fill-opacity:1" />
+            <rect
+               x="900"
+               width="100"
+               height="100"
+               id="rect75"
+               y="0"
+               style="fill:#000000;fill-opacity:1" />
+          </g>
+          <use
+             transform="translate(-100,100)"
+             xlink:href="#che"
+             id="use78"
+             style="fill:#000000;fill-opacity:1" />
+        </g>
+        <use
+           transform="translate(0,200)"
+           xlink:href="#tri"
+           id="use81"
+           style="fill:#000000;fill-opacity:1" />
+      </g>
+      <use
+         transform="translate(0,400)"
+         xlink:href="#dva"
+         id="use84"
+         style="fill:#000000;fill-opacity:1" />
+    </g>
+    <use
+       transform="translate(0,800)"
+       xlink:href="#raz"
+       id="use87"
+       style="fill:#000000;fill-opacity:1" />
+  </g>
+  <g
+     id="Dark-0"
+     fill="#8ca2ad"
+     transform="translate(0,1400)"
+     style="opacity:0.25">
+    <g
+       id="raz-5">
+      <g
+         id="dva-2">
+        <g
+           id="tri-4">
+          <g
+             id="che-3">
+            <rect
+               x="100"
+               width="100"
+               height="100"
+               id="rect67-6"
+               y="0" />
+            <rect
+               x="300"
+               width="100"
+               height="100"
+               id="rect69-5"
+               y="0" />
+            <rect
+               x="500"
+               width="100"
+               height="100"
+               id="rect71-9"
+               y="0" />
+            <rect
+               x="700"
+               width="100"
+               height="100"
+               id="rect73-5"
+               y="0" />
+            <rect
+               x="900"
+               width="100"
+               height="100"
+               id="rect75-5"
+               y="0" />
+          </g>
+          <use
+             transform="translate(-100,100)"
+             xlink:href="#che-3"
+             id="use78-8" />
+        </g>
+        <use
+           transform="translate(0,200)"
+           xlink:href="#tri-4"
+           id="use81-2" />
+      </g>
+      <use
+         transform="translate(0,400)"
+         xlink:href="#dva-2"
+         id="use84-4" />
+    </g>
+    <use
+       transform="translate(0,600)"
+       xlink:href="#raz-5"
+       id="use87-4" />
+  </g>
+  <g
+     id="Dark-7"
+     fill="#8ca2ad"
+     transform="translate(1000)"
+     style="opacity:0.25;fill:#000003;fill-opacity:1">
+    <g
+       id="raz-9"
+       style="fill:#000003;fill-opacity:1">
+      <g
+         id="dva-4"
+         style="fill:#000003;fill-opacity:1">
+        <g
+           id="tri-0"
+           style="fill:#000003;fill-opacity:1">
+          <g
+             id="che-6"
+             style="fill:#000003;fill-opacity:1">
+            <rect
+               x="100"
+               width="100"
+               height="100"
+               id="rect67-0"
+               y="0"
+               style="fill:#000003;fill-opacity:1" />
+            <rect
+               x="300"
+               width="100"
+               height="100"
+               id="rect69-1"
+               y="0"
+               style="fill:#000003;fill-opacity:1" />
+            <rect
+               x="500"
+               width="100"
+               height="100"
+               id="rect71-99"
+               y="0"
+               style="fill:#000003;fill-opacity:1" />
+            <rect
+               x="700"
+               width="100"
+               height="100"
+               id="rect73-1"
+               y="0"
+               style="fill:#000003;fill-opacity:1" />
+            <rect
+               x="900"
+               width="100"
+               height="100"
+               id="rect75-9"
+               y="0"
+               style="fill:#000003;fill-opacity:1" />
+          </g>
+          <use
+             transform="translate(-100,100)"
+             xlink:href="#che-6"
+             id="use78-4"
+             style="fill:#000003;fill-opacity:1" />
+        </g>
+        <use
+           transform="translate(0,200)"
+           xlink:href="#tri-0"
+           id="use81-5"
+           style="fill:#000003;fill-opacity:1" />
+      </g>
+      <use
+         transform="translate(0,400)"
+         xlink:href="#dva-4"
+         id="use84-3"
+         style="fill:#000003;fill-opacity:1" />
+    </g>
+    <use
+       transform="translate(0,800)"
+       xlink:href="#raz-9"
+       id="use87-9"
+       style="fill:#000003;fill-opacity:1" />
+  </g>
+  <g
+     id="Dark-0-8"
+     fill="#8ca2ad"
+     transform="translate(1000,1400)"
+     style="opacity:0.25">
+    <g
+       id="raz-5-8">
+      <g
+         id="dva-2-1">
+        <g
+           id="tri-4-8">
+          <g
+             id="che-3-3">
+            <rect
+               x="100"
+               width="100"
+               height="100"
+               id="rect67-6-2"
+               y="0" />
+            <rect
+               x="300"
+               width="100"
+               height="100"
+               id="rect69-5-9"
+               y="0" />
+            <rect
+               x="500"
+               width="100"
+               height="100"
+               id="rect71-9-9"
+               y="0" />
+            <rect
+               x="700"
+               width="100"
+               height="100"
+               id="rect73-5-9"
+               y="0" />
+            <rect
+               x="900"
+               width="100"
+               height="100"
+               id="rect75-5-3"
+               y="0" />
+          </g>
+          <use
+             transform="translate(-100,100)"
+             xlink:href="#che-3-3"
+             id="use78-8-0" />
+        </g>
+        <use
+           transform="translate(0,200)"
+           xlink:href="#tri-4-8"
+           id="use81-2-6" />
+      </g>
+      <use
+         transform="translate(0,400)"
+         xlink:href="#dva-2-1"
+         id="use84-4-7" />
+    </g>
+    <use
+       transform="translate(0,600)"
+       xlink:href="#raz-5-8"
+       id="use87-4-5" />
+  </g>
+  <path
+     style="opacity:0.25;fill:none;fill-opacity:1;stroke:#000000;stroke-width:15.625;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     d="M 0,400 H 200 V 500 H 500 V 700 H 600 V 800 H 700 V 700 h 300 V 500 h 200 V 400 H 1000 V 300 H 700 V 400 H 300 V 300 H 0 Z"
+     id="path4200"
+     sodipodi:nodetypes="ccccccccccccccccccccc" />
+</svg>

@@ -3,6 +3,9 @@
 [![Python-CI](https://github.com/gbtami/pychess-variants/actions/workflows/ci.yml/badge.svg)](https://github.com/gbtami/pychess-variants/actions/workflows/ci.yml)
 [![Nodejs-CI](https://github.com/gbtami/pychess-variants/actions/workflows/nodejs.yml/badge.svg)](https://github.com/gbtami/pychess-variants/actions/workflows/nodejs.yml)
 
+> This version of pychess is post-compiled folder. It only requires [Mongodb](https://www.mongodb.com/) to work.
+> Run `_cmd.bat` to begin the server, and type "localhost:8080" into your browser.
+
 pychess-variants is a free, open-source chess server designed to play chess variants.
 
 Currently supported games are:

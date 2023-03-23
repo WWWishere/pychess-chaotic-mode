@@ -57,16 +57,20 @@
   box-sizing: border-box;
   transition: 0.2s;
 }
+.cg-768 #extension_choice square {
+  width: 8.333%;
+  height: 10%;
+}
+.cg-704 #extension_choice square {
+  width: 9.09%;
+  height: 10%;
+}
 .cg-640 #extension_choice square {
   width: 10%;
 }
 .cg-576 #extension_choice square {
   height: 11.11%;
   width: 11.11%;
-}
-.cg-555 #extension_choice square {
-  height: 6.25%;
-  width: 5%;
 }
 .cg-448-516  #extension_choice square {
   width: 14.2857%;
@@ -83,6 +87,10 @@
 .cg-260 #extension_choice square {
   height: 20%;
   width: 20%;
+}
+.cg-256 #extension_choice square {
+  width: 25%;
+  height: 10%;
 }
 .cg-156 #extension_choice square {
   height: 25%;

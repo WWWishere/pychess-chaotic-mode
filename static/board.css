@@ -49,6 +49,15 @@
 .chennis7x7 cg-board {
     background-image: url('images/board/chennis.png');
 }
-.giant20x16 cg-board {
-    background-image: url('images/board/giant20x16.svg');
+.xxxl12x10 cg-board {
+    background-image: url('images/board/12x10blue.svg');
+}
+.corridor4x12 cg-board {
+    background-image: url('images/board/4x12wood4.jpg');
+}
+.river12x10 cg-board {
+    background-image: url('images/board/12x10map.svg');
+}
+.chaotic11x10 cg-board {
+    background-image: url('images/board/11x10blue.svg');
 }

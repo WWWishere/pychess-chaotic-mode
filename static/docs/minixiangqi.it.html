@@ -1,0 +1,41 @@
+<h1 id="minixiangqihttpsgithubcomgbtamipychess-variantsblobmasterstaticiconsminixiangqisvg-minixiangqi"><img src="https://github.com/gbtami/pychess-variants/blob/master/static/icons/Minixiangqi.svg" alt="Minixiangqi" /> Minixiangqi</h1>
+<p><img src="https://github.com/gbtami/pychess-variants/blob/master/static/images/XiangqiGuide/Minixiangqi.png" alt="Minixiangqi" /></p>
+<p>Minixiangqi is essentially xiangqi on a 7x7 board. The game was invented in 1973 by Shigenobu Kusumoto of Osaka, Japan.</p>
+<p>As this game is based off xiangqi, please see the corresponding guide for basic xiangqi rules first if you are not familiar with them.</p>
+<h2 id="rules">Rules</h2>
+<p>The starting setup is as above. Unlike standard xiangqi, there is no river, advisors, or elephants. </p>
+<p>Additionally, unlike Xiangqi, <strong>pawns start with the ability to move sideways</strong>.</p>
+<p>As in Xiangqi, stalemate is a <strong>loss</strong> for the player who cannot move.</p>
+<p>Also as in Xiangqi, each side has a 3x3 box with diagonal lines called the <em>Palace.</em> The King cannot leave the Palace.</p>
+<h2 id="additional-rules---perpetual-checks-and-chases">Additional Rules - Perpetual checks and chases</h2>
+<ul>
+<li>A player making perpetual checks with one piece or several pieces can be ruled to have lost unless he or she stops such checking.</li>
+<li>The side that perpetually chases any one unprotected piece with one or more pieces, excluding generals and soldiers, will be ruled to have lost unless he or she stops such chasing.</li>
+<li>If one side perpetually checks and the other side perpetually chases, the checking side has to stop or be ruled to have lost.</li>
+<li>When neither side violates the rules and both persist in not making an alternate move, the game can be ruled as a draw.</li>
+<li>When both sides violate the same rule at the same time and both persist in not making an alternate move, the game can be ruled as a draw.</li>
+</ul>
+<h2 id="the-pieces">The Pieces</h2>
+<p>Please note that the diagrams used are from the Xiangqi guide, where there is a river. There is no river, so you can just ignore it in the images.</p>
+<h3 id="king">King</h3>
+<p><img src="https://github.com/gbtami/pychess-variants/blob/master/static/images/XiangqiGuide/Kings.png" alt="Kings" /> </p>
+<p>The king (also known by its Chinese name, the <strong>general</strong>) can only move one step orthogonally, and it cannot leave the palace.</p>
+<p><em>Special rule</em>: Kings are not allowed to face each other with no piece in between (“General face-off rule”). Consider them as being able to attack each other as rooks (also called “flying generals”). This is useful for setting up checkmates in the endgame.</p>
+<h3 id="horse">Horse</h3>
+<p><img src="https://github.com/gbtami/pychess-variants/blob/master/static/images/XiangqiGuide/Horses.png" alt="Horses" /></p>
+<p><img src="https://github.com/gbtami/pychess-variants/blob/master/static/images/XiangqiGuide/HorseDiagram.png" alt="Horse movement" /></p>
+<p>The horse (also called by its Western name, the <strong>knight</strong>) moves almost exactly like a chess knight. However, instead of the usual “two steps orthogonally, then one to the side” teaching, it’s better to think of it as <em>one step orthogonally, then diagonally forward in either direction</em>, like a Y shape. The reason for this is that the knight <strong>can be blocked</strong> if a piece is adjacent to it. That will block off the two endpoints of that Y. Therefore, there can be situations where two horses are targeting each other, but only one can attack while the other is blocked. Strong moves take advantage of blocking the horse and limiting its movement.</p>
+<h3 id="chariot">Chariot</h3>
+<p><img src="https://github.com/gbtami/pychess-variants/blob/master/static/images/XiangqiGuide/Chariots.png" alt="Chariots" /></p>
+<p><img src="https://github.com/gbtami/pychess-variants/blob/master/static/images/XiangqiGuide/ChariotDiagram.png" alt="Chariot movement" /></p>
+<p>The chariot (also called by its Western name, the <strong>rook</strong>, and more rarely by its literal modern translation, car) moves exactly like a chess rook: any number of squares orthogonally. This is the most valuable piece in the game, excluding the king.</p>
+<h3 id="cannon">Cannon</h3>
+<p><img src="https://github.com/gbtami/pychess-variants/blob/master/static/images/XiangqiGuide/Cannons.png" alt="Cannons" /></p>
+<p><img src="https://github.com/gbtami/pychess-variants/blob/master/static/images/XiangqiGuide/CannonDiagram.png" alt="Cannon movement" /></p>
+<p>The cannon is a unique piece in xiangqi. It can move exactly like the chariot. However, to capture, it needs a piece (friend or foe) in between, called a screen.</p>
+<h3 id="pawn">Pawn</h3>
+<p><img src="https://github.com/gbtami/pychess-variants/blob/master/static/images/XiangqiGuide/Pawns.png" alt="Pawns" /></p>
+<p><img src="https://github.com/gbtami/pychess-variants/blob/master/static/images/XiangqiGuide/PawnDiagram.png" alt="Pawn movement" /></p>
+<p>The pawn (also called by its Chinese name, the <strong>soldier</strong>) moves and captures by moving forward one square <em>or one square sideways in Minixiangqi</em>. The ability to move sideways is in Minixiangqi as there is no river like in Xiangqi.</p>
+<h2 id="strategy">Strategy</h2>
+<p>The king starts completely immobile and trapped by pieces. This makes the cannon able to checkmate very early if you are not careful. Early moves should try to give the king some breathing room.</p>

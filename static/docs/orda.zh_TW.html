@@ -1,0 +1,262 @@
+<h1 id="orda-chesshttpsgithubcomgbtamipychess-variantsblobmasterstaticiconsordasvg-可汗西征棋--orda"><img src="https://github.com/gbtami/pychess-variants/blob/master/static/icons/orda.svg" alt="Orda chess" /> 可汗西征棋 | Orda</h1>
+<p><img src="https://github.com/gbtami/pychess-variants/blob/master/static/images/CVariantsGuide/Orda.png" alt="Orda" /></p>
+<p><img src="https://github.com/gbtami/pychess-variants/blob/master/static/images/CVariantsGuide/OrdaLegend.png" alt="Legend" /></p>
+<p>可汗西征棋是一種國際象棋變體，於2020由Couch Tomato推出。這次創造的是一個非對稱的變體，雙方使用不同的棋種。靈感來自Chess with different armies 的 Ralph Betza，走的是草原民族風格。仿照蒙古軍隊的特色，主題是「馬」的移動。事實上，Orda是一種蒙古軍事結構，意為皇室，而這也在英語中產生了一個新詞：Hordeーー遊牧民族。為了描繪拔都西征，敵對的軍隊是歐洲王室。遊戲本身極其平衡，甚至比國際象棋更平衡，雙方的勝率接近一半。<br />
+ </p>
+<h2 id="規則">規則</h2>
+<ol>
+<li>設置如上所示。</li>
+<li>雙方擁有兵和王（可汗）</li>
+<li>王室方是先手。</li>
+<li>可汗不可王車易位。</li>
+<li>可汗的兵因為已經過了第二行不可前進兩格，相反王室的兵可以，而可以被吃過路兵。</li>
+<li>雙方的兵只可升變為後或禁衛</li>
+<li>雙方有另一個勝利條件：達陣ーー當一方的王能安全達到對方底線的時候，該方勝利。</li>
+<li>其他規則跟國際象棋一樣，包括逼和(無子可動算和棋)和長將和。</li>
+</ol>
+<h2 id="可汗方的棋子">可汗方的棋子</h2>
+<p>有四個可汗特有的新棋種：2個槍騎，2個射騎，2個禁衛，1個穹盧。禁衛最強（王和馬的移動），而穹盧相當弱。Horde的王叫做可汗，有自己的符號，但本質上就是國王，差異就造型和主題而已。槍騎和射騎很特別，因為他們的動子和吃子方式不一樣（猶如西洋棋的兵一樣）。射騎以馬的走法移動，以主教的方式吃子;槍騎也是以馬的走法移動，而以車的走法吃子。禁衛吃子與移動沒有差別，走法是王+馬。穹盧則就如日本將棋的銀將般移動和吃子。</p>
+<table>
+<thead>
+<tr>
+<th id="**可汗**_棋子"><strong>可汗</strong> 棋子</th>
+<th id="**王室**_棋子"><strong>王室</strong> 棋子</th>
+<th id="移動">移動</th>
+<th id="吃掉移動">吃掉移動</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>穹盧</td>
+<td>後</td>
+<td>“銀將”</td>
+<td>“銀將”</td>
+</tr>
+<tr>
+<td>射騎</td>
+<td>象</td>
+<td>馬</td>
+<td>主教</td>
+</tr>
+<tr>
+<td>禁衛</td>
+<td>馬</td>
+<td>馬+王</td>
+<td>馬+王</td>
+</tr>
+<tr>
+<td>槍騎</td>
+<td>車</td>
+<td>馬</td>
+<td>車</td>
+</tr>
+</tbody>
+</table>
+<p>下面是每個棋子的細節和圖示。綠色點代表移動走法，紅色點代表吃子走法，黃色點代表都可。<br />
+ </p>
+<h3 id="穹盧--yurt-y">穹盧 | Yurt (Y)</h3>
+<p><img src="https://github.com/gbtami/pychess-variants/blob/master/static/images/CVariantsGuide/Yurt.png" alt="Yurt" /></p>
+<p>穹盧能移動到斜角方向或往正前方行走一格，猶如日本將其的銀將。穹盧一開始站在後的位置，不過不像後它很弱，即為輕子。但在他的小範圍之內，他的控制強度很高，因為沒有人想跟他換子。穹盧對蒙古人和突厥人來說是一種可移動的房屋，它們的重要性和小移動能力反應在這個棋子上。</p>
+<h3 id="禁衛--keshig-h">禁衛 | Keshig (H)</h3>
+<p><img src="https://github.com/gbtami/pychess-variants/blob/master/static/images/CVariantsGuide/Kheshig.png" alt="Kheshig" /></p>
+<p>禁衛的移動融合馬和王的移動。禁衛一開始位於西洋棋「馬」的位置。不像馬，它是Horde的最強棋子。一般來說，因為它們比其他棋子重要，最好是不要輕易出動，因為開局的爭奪圍繞著小棋子，而如果禁衛因為被威脅而需要逃跑，你會因此而失先。禁衛本身是帝國的衛隊，所以在它們的守護下，王很難被將死。</p>
+<h3 id="射騎--horse-archer-a">射騎 | Horse Archer (A)</h3>
+<p><img src="https://github.com/gbtami/pychess-variants/blob/master/static/images/CVariantsGuide/Archer.png" alt="Horse Archer" /></p>
+<p>射騎是一枚分化棋子，移動猶如馬，吃子猶如主教。因為它能換方格的顏色而控制比主教更多的方格，所以比主教強一點。射騎是蒙古軍隊中一個核心主力，他們的速度和威力帶來兇猛的威脅。<br />
+ </p>
+<h3 id="槍騎---lancer-l">槍騎  | Lancer (L)</h3>
+<p><img src="https://github.com/gbtami/pychess-variants/blob/master/static/images/CVariantsGuide/Lancer.png" alt="Lancer" /></p>
+<p>槍騎是一枚分化棋子，移動猶如馬，吃子猶如車。它的價值比車偏低，因為它的移動較慢，特別是在殘局。它應該還比射騎強一點。雖然槍騎比車弱，他們的機動性更強。槍騎是蒙古軍隊中另一個核心主力，做為重騎兵。<br />
+ </p>
+<h2 id="棋子價值">棋子價值</h2>
+<p>準確的棋子價值尚不清楚。以下是Fairy-stockfish所評估的。</p>
+<table>
+<thead>
+<tr>
+<th id="王室方">王室方</th>
+<th id="價值_(前期_/_後期)">價值 (前期 / 後期)</th>
+<th id="可汗方">可汗方</th>
+<th id="價值_(前期_/_後期)">價值 (前期 / 後期)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>兵</td>
+<td>120 / 213</td>
+<td>兵</td>
+<td>120 / 213</td>
+</tr>
+<tr>
+<td>後</td>
+<td>2538 / 2682</td>
+<td>穹盧</td>
+<td>630 / 630</td>
+</tr>
+<tr>
+<td>象</td>
+<td>825 / 915</td>
+<td>射騎</td>
+<td>1100 / 1200</td>
+</tr>
+<tr>
+<td>馬</td>
+<td>781 / 854</td>
+<td>禁衛</td>
+<td>1800 / 1900</td>
+</tr>
+<tr>
+<td>車</td>
+<td>1276 / 1380</td>
+<td>槍騎</td>
+<td>1050 / 1250</td>
+</tr>
+</tbody>
+</table>
+<p>下表更為簡明</p>
+<table>
+<thead>
+<tr>
+<th id="王室方">王室方</th>
+<th id="價值">價值</th>
+<th id="可汗方">可汗方</th>
+<th id="價值">價值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>兵</td>
+<td>1</td>
+<td>兵</td>
+<td>1</td>
+</tr>
+<tr>
+<td>後</td>
+<td>9</td>
+<td>穹盧</td>
+<td>2</td>
+</tr>
+<tr>
+<td>象</td>
+<td>3</td>
+<td>射騎</td>
+<td>4</td>
+</tr>
+<tr>
+<td>馬</td>
+<td>3</td>
+<td>禁衛</td>
+<td>7</td>
+</tr>
+<tr>
+<td>車</td>
+<td>5</td>
+<td>槍騎</td>
+<td>4</td>
+</tr>
+</tbody>
+</table>
+<h2 id="戰略">戰略</h2>
+<p>遊戲推出尚早，大部分的資料來自電腦對弈。</p>
+<p>可汗不能王車易位，所以一個基本的戰略是將可汗移動到g7。Fairy stockfish程式在56%的遊戲中走了Kf7。王室方的首選依序是d4，g3，b3。可汗方的主要弱點是它的棋子不能保持威脅，如果他受到攻擊而需要撤退，就失去它們原先的攻擊。國王方可利用這一點。</p>
+<h3 id="開局">開局</h3>
+<p>以下分析來自Fairy-Stockfish的評估</p>
+<table>
+<thead>
+<tr>
+<th id="白方開局">白方開局</th>
+<th id="遊戲比例">遊戲比例</th>
+<th id="白方勝率_%">白方勝率 %</th>
+<th id="金方勝率_%">金方勝率 %</th>
+<th id="金方應手">金方應手</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>d4</td>
+<td>38%    (47)</td>
+<td>45%</td>
+<td>38%</td>
+<td>Kf7 ~= c5 &gt;&gt; Hb7</td>
+</tr>
+<tr>
+<td>g3</td>
+<td>24% (30)</td>
+<td>33%</td>
+<td>43%</td>
+<td>Kf7 &gt;&gt; d5</td>
+</tr>
+<tr>
+<td>b3</td>
+<td>14% (18)</td>
+<td>33%</td>
+<td>44%</td>
+<td>Kf7 &gt;&gt; Lc7</td>
+</tr>
+<tr>
+<td>e3</td>
+<td>11% (14)</td>
+<td>50%</td>
+<td>50%</td>
+<td>Kf7 ~50% of the time</td>
+</tr>
+<tr>
+<td>d3</td>
+<td>6% (8)</td>
+<td>25%</td>
+<td>25%</td>
+<td>e5 ~=Kf7</td>
+</tr>
+<tr>
+<td>Nf3</td>
+<td>3% (4)</td>
+<td>25%</td>
+<td>50%</td>
+<td>e5 always</td>
+</tr>
+<tr>
+<td>e4</td>
+<td>2% (3)</td>
+<td>33%</td>
+<td>67%</td>
+<td>d5</td>
+</tr>
+<tr>
+<td>c4</td>
+<td>1% (1)</td>
+<td>100%</td>
+<td>0%</td>
+<td>Kf7</td>
+</tr>
+</tbody>
+</table>
+<p>四個最常見開局。“易位”代表金方很快把可汗移動到f7。小括弧代表其他選擇。</p>
+<p><strong>本科易位 - 雙角攻擊</strong> - 最常見</p>
+<ol>
+<li>g3 Kf7</li>
+<li>e4 Kg7</li>
+<li>(Bd3 or Nf3) …</li>
+</ol>
+<p><img src="https://github.com/gbtami/pychess-variants/blob/master/static/images/CVariantsGuide/BenkoCastle.png" alt="Benko's Castle" /></p>
+<p><em>本科易位 2… Kg7</em></p>
+<p><strong>Stockfish 防禦 - 封閉變例</strong></p>
+<ol>
+<li>d4 c5</li>
+<li>dxc5 <em>bxc5</em></li>
+<li>c4 Kf7</li>
+<li>(Nc3) …</li>
+</ol>
+<p><strong>Stockfish Defense - 開放變例</strong></p>
+<ol>
+<li>d4 c5</li>
+<li>dxc5 <em>dxc5</em></li>
+</ol>
+<p><strong>Stockfish Defense - 后翼推進</strong></p>
+<ol>
+<li>d4 c5</li>
+<li><em>e3</em> cxd4</li>
+<li>exd4 b5</li>
+<li>b3 Kf7</li>
+<li>c4</li>
+</ol>
+<p><img src="https://github.com/gbtami/pychess-variants/blob/master/static/images/CVariantsGuide/QueensidePush.png" alt="Stockfish Defense Queenside Push" /></p>
+<p><em>Stockfish Defense - 后翼推進，走5. c4</em></p>

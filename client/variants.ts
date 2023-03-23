@@ -35,7 +35,10 @@ export const BOARD_FAMILIES: Record<string, BoardFamily> = {
     shogun8x8: { dimensions: { width: 8, height: 8 }, cg: "cg-512", boardCSS: ["ShogunPlain.svg", "ShogunMaple.png", "ShogunMaple2.png", "ShogunBlue.svg", "8x8brown.svg", "8x8maple.jpg"] },
     chak9x9:{ dimensions: { width: 9, height: 9 }, cg: "cg-540", boardCSS: ["StandardChakBoard.svg", "ColoredChakBoard.svg", "ChakArt.jpg"] },
     chennis7x7:{ dimensions: { width: 7, height: 7 }, cg: "cg-448", boardCSS: ["WimbledonBoard.svg", "FrenchOpenBoard.svg", "USOpenBoard.svg"] },
-    giant20x16: { dimensions: { width: 20, height: 16 }, cg: "cg-555", boardCSS: ["20x16blue.svg"] },
+    xxxl12x10:{ dimensions: { width: 12, height: 10 }, cg: "cg-768", boardCSS: ["12x10blue.svg", "12x10wood4.jpg", "12x10grass.jpg", "12x10map.svg"] },
+    corridor4x12:{ dimensions: { width: 4, height: 10 }, cg: "cg-256", boardCSS: ["4x12wood4.jpg"] },
+    river12x10:{ dimensions: { width: 12, height: 10 }, cg: "cg-768", boardCSS: ["12x10map.svg"] },
+    chaotic11x10:{ dimensions: { width: 11, height: 10 }, cg: "cg-704", boardCSS: ["11x10blue.svg", "11x10wood4.jpg"] },
 };
 
 export const PIECE_FAMILIES: Record<string, PieceFamily> = {
@@ -61,8 +64,10 @@ export const PIECE_FAMILIES: Record<string, PieceFamily> = {
     ordamirror: { pieceCSS: ["ordamirror0", "ordamirror1", "disguised"] },
     chak: { pieceCSS: ["chak0", "disguised"] },
     chennis: { pieceCSS: ["chennis0", "chennis1", "chennis2", "disguised"] },
-    amazon: { pieceCSS: ["amazon0", "disguised"] },
-    giant: { pieceCSS: ["giant0", "disguised"] },
+    amazon2: { pieceCSS: ["amazon0", "disguised"] },
+    xxxl: { pieceCSS: ["xxxl0", "disguised"] },
+    fairyf: { pieceCSS: ["fairyf", "disguised"] },
+    chaotic: { pieceCSS: ["chaotic0", "chaotic1", "disguised"] },
 };
 
 export interface Variant {
@@ -771,23 +776,6 @@ export const VARIANTS: Record<string, Variant> = {
         promotion: { type: "shogi", roles: ["p", "m", "s", "f"] },
     }),
 
-    amazon: variant({
-        name: "amazon", tooltip: "Amazon replaces the queen.",
-        startFen: "rnbykbnr/pppffppp/8/8/8/8/PPPPPPPP/RNBYKBNR[] w KQkq - 0 1",
-        chess960: true, icon: "P", icon960: ",",
-        boardFamily: "standard8x8", pieceFamily: "amazon",
-        pieceRow: ["k", "y", "q", "r", "b", "n", "p", "f"],
-        rules: { enPassant: true },
-    }),
-
-    giant: variant({
-        name: "giant", tooltip: "Huge.",
-        startFen: "rnbakqcnffffffffffff/20/pppppppppppppppppppp/20/20/20/20/20/20/20/20/20/20/20/20/20/20/PPPPPPPPPPPPPPPPPPPPPPP/20/FFFFFFFFFFFFNCQKABNR[] w - - 0 1",
-        icon: "℘",
-        boardFamily: "giant20x16", pieceFamily: "giant",
-        pieceRow: ["k", "r", "n", "b", "a", "q", "c", "f", "p"],
-        rules: { enPassant: true },
-    }),
     // We support the functionality to import/store/analyze some variants
     // but don't want to add them to leaderboard page
     embassy: variant({
@@ -827,6 +815,69 @@ export const VARIANTS: Record<string, Variant> = {
         pocket: { roles: ["p", "n", "b", "r", "a", "c", "q"], captureToHand: true },
         rules: { enPassant: true },
     }),
+    amazon2: variant({
+        name: "amazon2", tooltip: "Amazon replaces the queen.",
+        startFen: "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBAKBNR w KQkq - 0 1",
+        chess960: false, icon: "P", icon960: ",",
+        boardFamily: "standard8x8", pieceFamily: "amazon2",
+        pieceRow: ["k", "a", "q", "r", "b", "n", "p"],
+        rules: { enPassant: true },
+    }),
+    xxxl: variant({
+        name: "xxxl", tooltip: "Massive board chess.",
+        startFen: "qtczuekadgmq/rlihjssjhilr/oppbwffwnppo/3pppppp3/3******3/11Y/3PPPPPP3/OPPBWFFWNPPO/RLIHJSSJHILR/QTCZUEKADGMQ w - - 0 1",
+        chess960: true, icon: "P", icon960: ",",
+        boardFamily: "xxxl12x10", pieceFamily: "xxxl",
+        pieceRow: ["k", "q", "r", "b", "n", "p", "a", "c", "d", "e", "f", "g", "h", "i", "j", "l", "m", "o", "s", "t", "u", "w", "x", "y", "z"],
+        promotion: { type: "shogi", roles: ["p", "o", "s"] },
+        rules: { enPassant: true },
+    }),
+    corridor: variant({
+        name: "corridor", tooltip: "Mini chess, but the corridor is thin, and the promotions are insane.",
+        startFen: "wfkw/pppp/4/4/4/4/4/4/PPPP/WFKW w - - 0 1",
+        chess960: true, icon: "P", icon960: ",",
+        boardFamily: "corridor4x12", pieceFamily: "fairyf",
+        pieceRow: ["k", "w", "f", "p"],
+        promotion: { type: "shogi", roles: ["p"] },
+        rules: { enPassant: true },
+    }),
+    xlhouse: variant({
+        name: "xlhouse", tooltip: "8x8 chess board, all the pieces, and piece drops as well.",
+        startFen: "rmjakctr/hbwffwnl/sppoopps/8/8/SPPOOPPS/HBWFFWNL/RMJAKCTR w KQkq - 0 1",
+        chess960: true, icon: "P", icon960: ",",
+        boardFamily: "standard8x8", pieceFamily: "fairyf",
+        pieceRow: ["k", "q", "r", "b", "n", "p", "a", "c", "d", "e", "f", "g", "h", "i", "j", "l", "m", "o", "s", "t", "u", "w", "x", "y", "z"],
+        pocket: { roles: ["o", "p", "s", "f", "w", "h", "l", "n", "j", "b", "r", "c", "t", "m", "q", "a"], captureToHand: true },
+        promotion: { type: "shogi", roles: ["p", "o", "s"] },
+        rules: { enPassant: true },
+    }),
+    xlstandard: variant({
+        name: "xlstandard", tooltip: "8x8 chess board, all the pieces, no piece drops, no fairy stockfish.",
+        startFen: "rnbqkbnr/acdefghi/jlmopstu/wyz5/WYZ*4/JLMOPSTU/ACDEFGHI/RNBQKBNR w KQkq - 0 1",
+        chess960: true, icon: "P", icon960: ",",
+        boardFamily: "standard8x8", pieceFamily: "fairyf",
+        pieceRow: ["k", "q", "r", "b", "n", "p", "a", "c", "d", "e", "f", "g", "h", "i", "j", "l", "m", "o", "s", "t", "u", "w", "x", "y", "z", "*"],
+        promotion: { type: "shogi", roles: ["p", "o", "s"] },
+        rules: { enPassant: true },
+    }),
+    river: variant({
+        name: "river", tooltip: "There's literally a river",
+        startFen: "lghidhtargqk/wjzfffflrdhh/pppppj1wwwpp/***4***2/2******1***/5*3*2/5*****2/PPPPPJ*WWWPP/WJZFFFFLRDHH/LGHIDHTARGQK w - - 0 1",
+        chess960: true, icon: "P", icon960: ",",
+        boardFamily: "river12x10", pieceFamily: "fairyf",
+        pieceRow: ["k", "q", "r", "b", "n", "p", "a", "c", "d", "e", "f", "g", "h", "i", "j", "l", "m", "o", "s", "t", "u", "w", "x", "y", "z", "*"],
+        promotion: { type: "shogi", roles: ["p", "o", "s"] },
+        rules: { enPassant: true },
+    }),
+    chaotic: variant({
+        name: "chaotic", tooltip: "11x10 board, nothing moves like it used to.",
+        startFen: "ocjntkidjms/1g1wfafw1h1/ppppppppppp/11/11/11/11/PPPPPPPPPPP/1G1WFAFW1H1/OCJNTKIDJMS w - - 0 1",
+        chess960: true, icon: "P", icon960: ",",
+        boardFamily: "chaotic11x10", pieceFamily: "chaotic",
+        pieceRow: ["k", "p", "a", "c", "d", "f", "g", "h", "i", "j", "m", "n", "o", "s", "t", "w"],
+        promotion: { type: "shogi", roles: ["p", "f", "w", "d", "j"] },
+        rules: { enPassant: true },
+    }),
 };
 
 export const variants = Object.keys(VARIANTS);
@@ -838,7 +889,7 @@ export const variantGroups: { [ key: string ]: { variants: string[] } } = {
     sea:      { variants: [ "makruk", "makpong", "cambodian", "sittuyin", "asean" ] },
     shogi:    { variants: [ "shogi", "minishogi", "kyotoshogi", "dobutsu", "gorogoroplus", "torishogi" ] },
     xiangqi:  { variants: [ "xiangqi", "manchu", "janggi", "minixiangqi" ] },
-    fairy:    { variants: [ "capablanca", "capahouse", "seirawan", "shouse", "grand", "grandhouse", "shako", "shogun", "hoppelpoppel", "amazon", "giant" ] },
+    fairy:    { variants: [ "capablanca", "capahouse", "seirawan", "shouse", "grand", "grandhouse", "shako", "shogun", "hoppelpoppel", "amazon2", "xxxl", "corridor", "xlhouse", "xlstandard", "river", "chaotic"] },
     army:     { variants: [ "orda", "synochess", "shinobi", "empire", "ordamirror", "chak", "chennis" ] },
 };
 

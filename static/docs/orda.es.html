@@ -1,0 +1,269 @@
+<h1 id="ajedrez-ordahttpsgithubcomgbtamipychess-variantsblobmasterstaticiconsordasvg-ajedrez-orda"><img src="https://github.com/gbtami/pychess-variants/blob/master/static/icons/orda.svg" alt="Ajedrez Orda" /> Ajedrez Orda</h1>
+<p><img src="https://github.com/gbtami/pychess-variants/blob/master/static/images/CVariantsGuide/Orda.png" alt="Orda" /></p>
+<p><img src="https://github.com/gbtami/pychess-variants/blob/master/static/images/CVariantsGuide/OrdaLegend.png" alt="Leyenda" /></p>
+<p>El Ajedrez Orda es una variante diseñada en 2020 por Couch Tomato. La idea del juego era create una variante puramente asimétrica de Ajedrez con dos ejércitos diferentes. El Ajedrez de Ralph Betza con Ejércitos Diferentes fue una inspiración, pero el objetivo era estar un poco más alineado con la temática de aquí. En este caso, el tema del nuevo ejército se basa en el movimiento del Caballo, dado que la mayoría de piezas se mueven coo el Caballo. Dada dicha temática relacionada con el Caballo, el juego fue modelado en base al ejército Mongol y nombrado Orda. De hecho, una Orda era una estructura militar para la gente de la estepa. El ejército original del Ajedrez es nombrado el Reino por contraposición. El juego es increíblemente equilibrado de acuerdo a la valoración del ordenador (incluso más que el Ajedrez estándar), con aproximadamente un ratio de victorias de 50%/50% para Reino y Orda.<br />
+ </p>
+<h2 id="reglas-generales">Reglas Generales</h2>
+<ol>
+<li>La posición inicial es según se muestra arriba. A pesar de las nuevas piezas, la ubicación de las piezas de la Orda refleja a sus contrapartidas de Ajedrez.</li>
+<li>Las únicas piezas que los bandos tienen en común son los Peones y los Reyes (el Rey de la Orda se llama Khan).</li>
+<li>El Reino (Blancas) <em>siempre mueve primero</em>.</li>
+<li>La Orda (Doradas) no se puede enrocar.</li>
+<li>Como los Peones de la Orda comienzan en la tercera fila, no tienen la opción de mover dos casillas o ser capturados al paso. Los peones del Reino mantienen la capacidad de mover dos casillas inicialmente y de ser capturados al paso.</li>
+<li>Los Peones <em>de ambos bandos</em> pueden promocionar únicamente a una Dama o Kheshig.</li>
+<li>Existe un método adicional de conseguir la victoria: <strong>camp mate</strong>. El camp mate se consigue llegando con nuestro propio Rey a la última fila sin ponerlo en jaque.</li>
+<li>El resto de reglas, incluyendo ahogados y repeticiones, son como en el Ajedrez.</li>
+</ol>
+<h2 id="piezas-de-la-orda">Piezas de la Orda</h2>
+<p>Hay cuatro nuevas unidades <em>en la Orda: 2 Lanzas, 2 Arqueros, 2 Kheshigs y 1 Yurta</em> (con la excepción de que el Reino todavía puede obtener un Kheshig mediante promoción). Los Kheshigs son la pieza más poderosa (movimientos de Caballo + Rey) y lideran cada flanco, mientras que la Yurta es una pieza bastante débil en comparación con la Dama.<br />
+El Rey de la Orda se denomina Khan y se representa con un símbolo diferente, pero es esencialmente la misma pieza que el Rey del Reino, y utiliza la misma abreviatura (K) - el cambio es puramente estético y temático.<br />
+La Lanza y el Arquero de la Orda son únicas en que capturan diferente a como mueven. Recuerda que la Orda se basa en el movimiento del Caballo, así que la Lanza y el Arquero mueven ambos como Caballos. Capturan/dan jaque como Torres y Alfiles, respectivamente. El Kheshig es más tradicional en el sentido de que captura de la misma forma que mueve; combina los movimientos del Caballo y el Rey. De forma parecida, la Yurta también captura de la forma en que mueve; mueve como el General de Plata del Shogi.</p>
+<table>
+<thead>
+<tr>
+<th id="pieza_de_la_**orda**">Pieza de la <strong>Orda</strong></th>
+<th id=""contrapartida"_del_**reino**_“counterpart”">"Contrapartida" del <strong>Reino</strong> “counterpart”</th>
+<th id="movimiento">Movimiento</th>
+<th id="captura/jaque">Captura/Jaque</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yurta</td>
+<td>Dama</td>
+<td>“General de Plata”</td>
+<td>“General de Plata”</td>
+</tr>
+<tr>
+<td>Arquero</td>
+<td>Alfil</td>
+<td>Caballo</td>
+<td>Alfil</td>
+</tr>
+<tr>
+<td>Kheshig</td>
+<td>Caballo</td>
+<td>Caballo+Rey</td>
+<td>Caballo+Rey</td>
+</tr>
+<tr>
+<td>Lanza</td>
+<td>Torre</td>
+<td>Caballlo</td>
+<td>Torre</td>
+</tr>
+</tbody>
+</table>
+<p>A continuación se muestran detalles y diagramas de cada pieza. Los puntos verdes representan movimiento, los puntos rojos representan captura, y los amarillos representan ambos.<br />
+ </p>
+<h3 id="yurta-y">Yurta (Y)</h3>
+<p><img src="https://github.com/gbtami/pychess-variants/blob/master/static/images/CVariantsGuide/Yurt.png" alt="Yurta" /></p>
+<p>La Yurta mueve y captura un espcio en diagonal y un espacio hacia adelante. Es similar al General de Plata del Shogi o el Alfil/Khon del Makruk. Solo hay una Yurta, que comienza la partida en la casilla de la Dama, pero a diferencia de la Dama, es una pieza mucho menor, la más débil del juego al margen de los Peones. No debe ser subestimada, sin embargo, ya que es una de las pocas piezas de Orda que puede mover y capturar del mismo modo. Las otras dos son el Khan y el Kheshig, que son las piezas más valiosas. Por lo tanto, la Yurta desempeña la especial labor de proteger a Peones y otras piezas sin miedo a represalias.<br />
+Una Yurta es una casa móvil de los pueblos Mongol y Túrquico en las estepas de Asia. Su limitada movilidad pero importancia para proteger al ejército son reflejadas en esta pieza.</p>
+<h3 id="kheshig-h">Kheshig (H)</h3>
+<p><img src="https://github.com/gbtami/pychess-variants/blob/master/static/images/CVariantsGuide/Kheshig.png" alt="Kheshig" /></p>
+<p>El Kheshig es una pieza híbrida que mueve y captura como un Caballo y un Rey combinados. Este tipo de pieza es generalmente denominada centauro. El Kheshig comienza en el lugar del Caballo, pero a diferencia del Caballo, es la pieza más poderosa de la Orda. Podemos pensar en ella como un General que lidera su propia tropa en cada flanco. Generalmente  es preferible mantener a los Kheshigs a salvo en posiciones retrasadas durante las primeras fases de la partida, debido a su extremada importancia para la Orda en los finales.<br />
+Los Kheshigs eran la guardia imperial de la realeza Mongol. Adecuadamente, es increíblemente difícil para el Reino dar jaque mate al Khan sin al menos eliminar uno de sus Kheshigs primero.</p>
+<h3 id="arquero-a">Arquero (A)</h3>
+<p><img src="https://github.com/gbtami/pychess-variants/blob/master/static/images/CVariantsGuide/Archer.png" alt="Arquero" /></p>
+<p>El Arquero, o Caballo Arquero, es una pieza semihíbrida única que mueve y ataca de formas diferentes. El Arquero se mueve como el Caballo pero captura como el Alfil. Dado que el Arquero no va por un único color, su valor es mayor que el de su contrapartida el Alfil.<br />
+Los Arqueros eran uno de los dos componentes principales de la caballería Mongol, y funcionaban como caballería ligera. Su velocidad y gran habilidad como Arqueros montados les convertía en una amenaza única. Su habilidad para posicionarse rápidamente para una enfilada o double ataque les convierte en una amenaza muy peligrosa para el Reino.<br />
+ </p>
+<h3 id="lanza-l">Lanza (L)</h3>
+<p><img src="https://github.com/gbtami/pychess-variants/blob/master/static/images/CVariantsGuide/Lancer.png" alt="Lanza" /></p>
+<p>La Lanza es una pieza única semihíbrida que mueve y ataca de formas diferentes. La lanza mueve como un Caballo pero captura como una Torre.  Dado que la Lanza no es tan móvil como la Torre, su valor es generalmente inferior al de la Torre, y esto se pronuncia más en el final, ya que no se puede mover por el tablero tan rápido como una Torre. Su valor es comparable al de un Arquero.<br />
+Las lanzas eran uno de los componentes fundamentales de la caballería Mongol, funcionando como caballería pesada. A pesar de ser más débiles que la Torre, su habilidad para entrar en juego mucho antes en la partida es una ventaja que el jugador de Orda debería utilizar.</p>
+<h2 id="valores-de-las-piezas">Valores de las Piezas</h2>
+<p>Los valores precisos de las piezas son desconocidos. Sin embargo, estos son los valores utilizados por Fairy Stockfish, precisando que son valores genéricos, no necesariamente específicos al Ajedrez Orda:</p>
+<table>
+<thead>
+<tr>
+<th id="pieza_del_reino">Pieza del Reino</th>
+<th id="valor_(temprano_/_tarde)">Valor (Temprano / Tarde)</th>
+<th id="pieza_de_orda">Pieza de Orda</th>
+<th id="valor_(temprano_/_tarde)">Valor (Temprano / Tarde)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Peón</td>
+<td>120 / 213</td>
+<td>Peón</td>
+<td>120 / 213</td>
+</tr>
+<tr>
+<td>Dama</td>
+<td>2538 / 2682</td>
+<td>Yurta</td>
+<td>630 / 630</td>
+</tr>
+<tr>
+<td>Alfil</td>
+<td>825 / 915</td>
+<td>Arquero</td>
+<td>1100 / 1200</td>
+</tr>
+<tr>
+<td>Caballo</td>
+<td>781 / 854</td>
+<td>Kheshig</td>
+<td>1800 / 1900</td>
+</tr>
+<tr>
+<td>Torre</td>
+<td>1276 / 1380</td>
+<td>Lanza</td>
+<td>1050 / 1250</td>
+</tr>
+</tbody>
+</table>
+<p>Para aquellos que quieran un enfoque más simiplificado, la siguiente tabla puede ser una aproximación.</p>
+<table>
+<thead>
+<tr>
+<th id="pieza_del_reino">Pieza del Reino</th>
+<th id="valor">Valor</th>
+<th id="pieza_de_orda">Pieza de Orda</th>
+<th id="valor">Valor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Peón</td>
+<td>1</td>
+<td>Peón</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Dama</td>
+<td>9</td>
+<td>Yurta</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Alfil</td>
+<td>3</td>
+<td>Arquero</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Caballo</td>
+<td>3</td>
+<td>Kheshig</td>
+<td>7</td>
+</tr>
+<tr>
+<td>Torre</td>
+<td>5</td>
+<td>Lanza</td>
+<td>4</td>
+</tr>
+</tbody>
+</table>
+<h2 id="estrategia">Estrategia</h2>
+<p>El juego todavía es joven, por lo que la estrategia todavía está desarrollo. La mayoría de la información está basada en el juego de ordenador.</p>
+<p>La Orda no puede enrocar. Sin embargo, un componente fundamental de la mayoría de aperturas en Orda es mover el Khan a g7. Llegar a esta casilla en las primeras cuatro jugadas es ideal - de hecho, Fairy Stockfish abre con Kf7 en un 56% de sus partidas. El resto es variable.<br />
+Para el Reino, d4, g3 y b3 son las aperturas más comunes en ese orden.</p>
+<p>Una debilidad importante de la Orda es que las Lanzas y los Arqueros no pueden mantener una amenaza en una pieza. Si atacas a una Lanza/Arquero, si deben retroceder, perderán su ataque. Es importante para el Reino sacar partido de esta circunstancia.</p>
+<h3 id="aperturas">Aperturas</h3>
+<p>Lo siguiente se basa en un análisis de las primeros movimientos jugados por Fairy Stockfish contra sí mismo</p>
+<table>
+<thead>
+<tr>
+<th id="primera_jugada_blancas">Primera jugada Blancas</th>
+<th id="porcentaje_de_partidas_(número)">Porcentaje de partidas (número)</th>
+<th id="blancas_ganan_%">Blancas Ganan %</th>
+<th id="doradas_ganan__%">Doradas Ganan  %</th>
+<th id="respuesta_doradas">Respuesta Doradas</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>d4</td>
+<td>38%    (47)</td>
+<td>45%</td>
+<td>38%</td>
+<td>Kf7 ~= c5 &gt;&gt; Hb7</td>
+</tr>
+<tr>
+<td>g3</td>
+<td>24% (30)</td>
+<td>33%</td>
+<td>43%</td>
+<td>Kf7 &gt;&gt; d5</td>
+</tr>
+<tr>
+<td>b3</td>
+<td>14% (18)</td>
+<td>33%</td>
+<td>44%</td>
+<td>Kf7 &gt;&gt; Lc7</td>
+</tr>
+<tr>
+<td>e3</td>
+<td>11% (14)</td>
+<td>50%</td>
+<td>50%</td>
+<td>Kf7 ~50% del tiempo</td>
+</tr>
+<tr>
+<td>d3</td>
+<td>6% (8)</td>
+<td>25%</td>
+<td>25%</td>
+<td>e5 ~=Kf7</td>
+</tr>
+<tr>
+<td>Nf3</td>
+<td>3% (4)</td>
+<td>25%</td>
+<td>50%</td>
+<td>e5 always</td>
+</tr>
+<tr>
+<td>e4</td>
+<td>2% (3)</td>
+<td>33%</td>
+<td>67%</td>
+<td>d5</td>
+</tr>
+<tr>
+<td>c4</td>
+<td>1% (1)</td>
+<td>100%</td>
+<td>0%</td>
+<td>Kf7</td>
+</tr>
+</tbody>
+</table>
+<p>Algunas líneas particulares han sido también jugadas en múltiples partidas. Aquí tenemos las cuatro más comunes. Usaremos el nombre "enroque" para cualquier variación en la que la Orda resguarda su Khan en f7 tan pronto como sea posible. Las últimas jugadas entre paréntesis indican donde las variaciones empiezan a ocurrir significativamente.</p>
+<p><strong>Enroque de Benko - Apertura de Doble Esquina</strong> - Apertura más común</p>
+<ol>
+<li>g3 Kf7</li>
+<li>e4 Kg7</li>
+<li>(Bd3 or Nf3) …</li>
+</ol>
+<p><img src="https://github.com/gbtami/pychess-variants/blob/master/static/images/CVariantsGuide/BenkoCastle.png" alt="Enroque de Benko" /></p>
+<p><em>Enroque de Benko después de 2… Kg7</em></p>
+<p><strong>Defensa Stockfish - Variante Cerrada</strong></p>
+<ol>
+<li>d4 c5</li>
+<li>dxc5 <em>bxc5</em></li>
+<li>c4 Kf7</li>
+<li>(Nc3) …</li>
+</ol>
+<p><strong>Defensa Stockfish - Variante Abierta</strong></p>
+<ol>
+<li>d4 c5</li>
+<li>dxc5 <em>dxc5</em></li>
+</ol>
+<p><strong>Defensa Stockfish - Avance de Flanco de Dama</strong></p>
+<ol>
+<li>d4 c5</li>
+<li><em>e3</em> cxd4</li>
+<li>exd4 b5</li>
+<li>b3 Kf7</li>
+<li>c4</li>
+</ol>
+<p><img src="https://github.com/gbtami/pychess-variants/blob/master/static/images/CVariantsGuide/QueensidePush.png" alt="Defensa Stockfish Avance de Flanco de Dama" /></p>
+<p><em>Defensa Stockfish- Avance de Flanco de Dama después de 5. c4</em></p>

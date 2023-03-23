@@ -1,0 +1,136 @@
+.chaotic .cg-wrap piece._-piece {
+    background-image: url('../../images/pieces/blan.svg');
+}
+.chaotic .cg-wrap piece.a-piece.white {
+    background-image: url('../../images/pieces/dragon/wA.svg');
+}
+.chaotic .cg-wrap piece.a-piece.black {
+    background-image: url('../../images/pieces/dragon/bA.svg');
+}
+.chaotic .cg-wrap piece.f-piece.white {
+    background-image: url('../../images/pieces/dragon/wF.svg');
+}
+.chaotic .cg-wrap piece.f-piece.black {
+    background-image: url('../../images/pieces/dragon/bF.svg');
+}
+.chaotic .cg-wrap piece.m-piece.white {
+    background-image: url('../../images/pieces/dragon/wM.svg');
+}
+.chaotic .cg-wrap piece.m-piece.black {
+    background-image: url('../../images/pieces/dragon/bM.svg');
+}
+.chaotic .cg-wrap piece.c-piece.white {
+    background-image: url('../../images/pieces/dragon/wC.svg');
+}
+.chaotic .cg-wrap piece.c-piece.black {
+    background-image: url('../../images/pieces/dragon/bC.svg');
+}
+.chaotic .cg-wrap piece.d-piece.white {
+    background-image: url('../../images/pieces/dragon/wD.svg');
+}
+.chaotic .cg-wrap piece.d-piece.black {
+    background-image: url('../../images/pieces/dragon/bD.svg');
+}
+.chaotic .cg-wrap piece.e-piece.white {
+    background-image: url('../../images/pieces/dragon/wE.svg');
+}
+.chaotic .cg-wrap piece.e-piece.black {
+    background-image: url('../../images/pieces/dragon/bE.svg');
+}
+.chaotic .cg-wrap piece.g-piece.white {
+    background-image: url('../../images/pieces/dragon/wG.svg');
+}
+.chaotic .cg-wrap piece.g-piece.black {
+    background-image: url('../../images/pieces/dragon/bG.svg');
+}
+.chaotic .cg-wrap piece.h-piece.white {
+    background-image: url('../../images/pieces/dragon/wH.svg');
+}
+.chaotic .cg-wrap piece.h-piece.black {
+    background-image: url('../../images/pieces/dragon/bH.svg');
+}
+.chaotic .cg-wrap piece.t-piece.white {
+    background-image: url('../../images/pieces/dragon/wT.svg');
+}
+.chaotic .cg-wrap piece.t-piece.black {
+    background-image: url('../../images/pieces/dragon/bT.svg');
+}
+.chaotic .cg-wrap piece.j-piece.white {
+    background-image: url('../../images/pieces/dragon/wJ.svg');
+}
+.chaotic .cg-wrap piece.j-piece.black {
+    background-image: url('../../images/pieces/dragon/bJ.svg');
+}
+.chaotic .cg-wrap piece.pj-piece.white {
+    background-image: url('../../images/pieces/dragon/wL.svg');
+}
+.chaotic .cg-wrap piece.pj-piece.black {
+    background-image: url('../../images/pieces/dragon/bL.svg');
+}
+.chaotic .cg-wrap piece.o-piece.white {
+    background-image: url('../../images/pieces/dragon/wO.svg');
+}
+.chaotic .cg-wrap piece.o-piece.black {
+    background-image: url('../../images/pieces/dragon/bO.svg');
+}
+.chaotic .cg-wrap piece.s-piece.white {
+    background-image: url('../../images/pieces/dragon/wS.svg');
+}
+.chaotic .cg-wrap piece.s-piece.black {
+    background-image: url('../../images/pieces/dragon/bS.svg');
+}
+.chaotic .cg-wrap piece.i-piece.white {
+    background-image: url('../../images/pieces/dragon/wI.svg');
+}
+.chaotic .cg-wrap piece.i-piece.black {
+    background-image: url('../../images/pieces/dragon/bI.svg');
+}
+.chaotic .cg-wrap piece.w-piece.white {
+    background-image: url('../../images/pieces/dragon/wW.svg');
+}
+.chaotic .cg-wrap piece.w-piece.black {
+    background-image: url('../../images/pieces/dragon/bW.svg');
+}
+.chaotic .cg-wrap piece.pp-piece.white {
+    background-image: url('../../images/pieces/dragon/wE.svg');
+}
+.chaotic .cg-wrap piece.pp-piece.black {
+    background-image: url('../../images/pieces/dragon/bE.svg');
+}
+
+.chaotic .cg-wrap piece.p-piece.white {
+    background-image: url('../../images/pieces/dragon/wP.svg');
+}
+.chaotic .cg-wrap piece.pf-piece.white {
+    background-image: url('../../images/pieces/dragon/wB.svg');
+}
+.chaotic .cg-wrap piece.n-piece.white {
+    background-image: url('../../images/pieces/dragon/wN.svg');
+}
+.chaotic .cg-wrap piece.pw-piece.white {
+    background-image: url('../../images/pieces/dragon/wR.svg');
+}
+.chaotic .cg-wrap piece.pd-piece.white {
+    background-image: url('../../images/pieces/dragon/wQ.svg');
+}
+.chaotic .cg-wrap piece.k-piece.white {
+    background-image: url('../../images/pieces/dragon/wK.svg');
+}
+.chaotic .cg-wrap piece.p-piece.black {
+    background-image: url('../../images/pieces/dragon/bP.svg');
+}
+.chaotic .cg-wrap piece.pf-piece.black {
+    background-image: url('../../images/pieces/dragon/bB.svg');
+}
+.chaotic .cg-wrap piece.n-piece.black {
+    background-image: url('../../images/pieces/dragon/bN.svg');
+}
+.chaotic .cg-wrap piece.pw-piece.black {
+    background-image: url('../../images/pieces/dragon/bR.svg');
+}
+.chaotic .cg-wrap piece.pd-piece.black {
+    background-image: url('../../images/pieces/dragon/bQ.svg');
+}
+.chaotic .cg-wrap piece.k-piece.black {
+    background-image: url('../../images/pieces/dragon/bK.svg');
+}

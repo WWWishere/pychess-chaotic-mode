@@ -80,20 +80,6 @@ export function layer2fairy (lobbyCtrl: LobbyController, containerId: string): v
             ]),
             h('p.variant-extra-info', _('Bishops and Knights swap their capture moves')),
         ]),
-        h('button.layer-2-category.amazon', { on: { click: () => layer3variant('layer2fairycont', lobbyCtrl, 'amazon', false) } }, [
-            h('div.variant-title-l2', [
-                h('div.icon', { attrs: { 'data-icon': VARIANTS['amazon'].icon(false) } }),
-                h('h3', VARIANTS['amazon'].displayName()),
-            ]),
-            h('p.variant-extra-info', _('Amazon replaces the Queen')),
-        ]),
-        h('button.layer-2-category.giant', { on: { click: () => layer3variant('layer2fairycont', lobbyCtrl, 'giant', false) } }, [
-            h('div.variant-title-l2', [
-                h('div.icon', { attrs: { 'data-icon': VARIANTS['giant'].icon(false) } }),
-                h('h3', VARIANTS['giant'].displayName()),
-            ]),
-            h('p.variant-extra-info', _('Huge')),
-        ]),
     ]);
 
     const container = document.getElementById(containerId) as HTMLElement;

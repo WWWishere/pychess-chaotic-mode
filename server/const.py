@@ -129,8 +129,13 @@ VARIANTS = (
     "ordamirror",
     "chak",
     "chennis",
-    "amazon",
-    "giant",
+    "amazon2",
+    "xxxl",
+    "corridor",
+    "xlhouse",
+    "xlstandard",
+    "river",
+    "chaotic",
 )
 
 VARIANT_ICONS = {
@@ -181,8 +186,13 @@ VARIANT_ICONS = {
     "chak": "🐬",
     "chennis": "🎾",
     "duck": "🦆",
-    "amazon": "P",
-    "mansindam": "℘",
+    "amazon2": "P",
+    "xxxl": "P",
+    "corridor": "P",
+    "xlhouse": "P",
+    "xlstandard": "P",
+    "river": "R",
+    "chaotic": "P",
 }
 
 VARIANT_960_TO_PGN = {
@@ -224,8 +234,13 @@ CATEGORIES = {
         "shako",
         "shogun",
         "hoppelpoppel",
-        "amazon",
-        "giant",
+        "amazon2",
+        "xxxl",
+        "corridor",
+        "xlhouse",
+        "xlstandard",
+        "river",
+        "chaotic",
     ),
     "army": ("orda", "synochess", "shinobi", "empire", "ordamirror", "chak", "chennis"),
     "makruk": ("makruk", "makpong", "cambodian", "sittuyin", "asean"),
@@ -276,6 +291,8 @@ def variant_display_name(variant):
         return "TORI SHOGI"
     elif variant == "duck":
         return "DUCK CHESS"
+    elif variant == "amazon2":
+        return "AMAZON"
     else:
         return variant.upper()
 
@@ -354,8 +371,13 @@ TRANSLATED_VARIANT_NAMES = {
     "ordamirror": _("Orda Mirror"),
     "chak": _("Chak"),
     "chennis": _("Chennis"),
-    "amazon": _("Amazon"),
-    "giant": _("Giant"),
+    "amazon2": _("Amazon"),
+    "xxxl": _("Xxxl"),
+    "corridor": _("Corridor"),
+    "xlhouse": _("Xlhouse"),
+    "xlstandard": _("Xlstandard"),
+    "river": _("River"),
+    "chaotic": _("Chaotic"),
 }
 
 del _

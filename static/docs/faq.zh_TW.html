@@ -1,0 +1,55 @@
+<h1 id="常見問題">常見問題</h1>
+<h2 id="pychess">Pychess</h2>
+<p><details><summary>什麼是Pychess?</summary></p>
+<p>Pychess是一個提供各種象棋類變體的網站，包括各地的傳統象棋與現代較新的變體。</p>
+<p>請參閱 <a href="https://www.pychess.org/about">關於</a>.</details></p>
+<p><details><summary>為何取名為Pychess?</summary></p>
+<p>因為此網站是以Python寫成。</details></p>
+<p><details><summary>這和知名西洋棋軟體Pychess有何不同?</summary></p>
+<p>兩者都致力於象棋變體，且開發者是同一人(<a href="https://www.github.com/gbtami">gbtami</a>)。然而， 兩者的共通性只到這裡，此網站的全名其實是「Pychess Variants」，但常常簡稱 Pychess。</p>
+<p>該軟體的網站在<a href="https://pychess.github.io/">這裡</a></details></p>
+<p><details><summary>Pychess跟 <a href="https://lichess.org/">Lichess</a> 有什麼關係?</summary></p>
+<p>Pychess網頁的設計受到 Lichess 的影響，然而 Pychess 與 Lichess 並沒有官方的關係。但 Pychess 使用 Lichess 的使用者帳號以方便管理。<br />
+</details></p>
+<p><details><summary>什麼是Fairy-Stockfish?</summary></p>
+<p>Stockfish是最強的西洋棋軟體之一，而 <a href="https://github.com/ianfab/Fairy-Stockfish">Fairy-Stockfish</a>是由<a href="https://www.github.com/ianfab">Ianfab</a>改良Stockfish而成，將其擴展到各種象棋類變體。</details></p>
+<p><details><summary>8級的Fairy-Stockfish就是最強的嗎?</summary></p>
+<p>這是<strong>網站</strong>上最強的等級,但並不是Fairy-Stockfish的最高水平。要達到最高水平需要更多的計算量與時間，而Pychess上的Fairy-Stockfish被限制在幾秒內就要完成移動。</details></p>
+<p><details><summary>我找到了一個Bug，可以怎麼辦?</summary></p>
+<p>你可以在github上發表<a href="https://github.com/gbtami/pychess-variants/issues/new">issue</a>，畢竟我們所有的工作都在github上進行。</p>
+<p>如果可以的話，請儘可能附上網址與詳細說明。如果你不會用github，你可以在我們的Discord伺服器上發佈，就會有人將其放上去。</details></p>
+<h2 id="變體">變體</h2>
+<p><details><summary>Pychess上有哪些變體?</summary></p>
+<p>請參閱<a href="https://www.pychess.org/variants">變體頁面</a>.</details></p>
+<p><details><summary>XX棋要怎麼玩?</summary></p>
+<p>請參閱<a href="https://www.pychess.org/variants">變體頁面</a>.同時，也可以在下棋時點選左上角該棋類的名稱，就會前往該棋類的介紹頁面。</details></p>
+<p><details><summary>為什麼Pychess選擇這些變體?</summary></p>
+<p>通常會加入各地流行的傳統棋類，也有加入一些較常見的西洋棋變體和Pychess玩家發明的變體。然而，也還有一些變體沒有被加進去。Pychess 依靠 Fairy-Stockfish 的支援， 我們的程式碼也是由它來運作，因此不被Fairy-Stockfish支援的變體是不會被放上來的。</details></p>
+<p><details><summary>Pychess會加入恰圖蘭卡(古印度象棋，所有象棋類遊戲的源頭)嗎?</summary></p>
+<p>真正的恰圖蘭卡已經失傳了，而且尚有許多十分相似的變體(例如:泰國象棋)，因此不會加入。如果你想玩，可以去其他有支援的網站。</details></p>
+<p><details><summary>可以新增XX棋嗎?</summary></p>
+<p>這要看該棋是否有足夠的受歡迎度。當然如果Fairy-Stockfish不能支援也就不可能.你也可以直接在我們的Discord和github上問問。</details></p>
+<h2 id="介面">介面</h2>
+<p><details><summary>我要如何改變設定?</summary></p>
+<p>點選右上角齒輪狀按扭(使用者名稱旁邊)並點選 "棋盤配置".</details></p>
+<p><details><summary>我要如何改變棋盤和棋子外觀?有通用的國際棋子嗎?</summary></p>
+<p>同上，點選"棋盤設定"。所有的亞洲變體都有國際棋子。</details></p>
+<p><details><summary>我要如何在棋盤上劃記?</summary></p>
+<p>點右鍵可以在目標棋子上劃圈，拖弋可以產生箭頭。預設都是綠色的，你可以按Shift或Ctrl來改成紅色，而按Alt則會變藍。</details></p>
+<p><details><summary>時間"5+3"是什麼意思?</summary></p>
+<p>這些是遊戲時間設置，"5+3" 代表每人有 5 <em>分鐘</em>, 每動一步則加 3 <em>秒</em>。你也當然也可以自由設定遊戲計時。</details></p>
+<p><details><summary>"5+3(b)"那個(b)又是?</summary></p>
+<p>b 代表倒數計時，這與加時不同，只有特定變體會有(例如:日本將棋和韓國將棋)。當雙方的時間用完時(在此範例裡是五分鐘)，雙方每步就只剩下倒數計時的時間可以動子。在此範例中，就是每步3秒。通常倒數計時是10秒或30秒。</details></p>
+<p><details><summary>什麼是電腦隨機走子?</summary></p>
+<p>電腦隨機走子是讓電腦隨機移動的模式，主要是用來讓玩家熟悉遊戲規則。之後會建議與Fairy-Stockfish (就算是比較低等級的)對奕以增進棋感。</details></p>
+<h2 id="帳號、社群">帳號、社群</h2>
+<p><details><summary>如何登入?</summary></p>
+<p>你要有一個 Lichess 帳號。如果你沒有，請至 <a href="https://lichess.org/signup">Lichess</a>註冊。</details></p>
+<p><details><summary>這會使我的 Lichess 帳密外洩嗎?</summary></p>
+<p>不可能! 這是基於 OAuth 協定且你的密碼不會給予 Pychess, 就像你可以用你Google的帳號登入其他網站一樣。</details></p>
+<p><details><summary>怎麼跟網站的開發者聯係?</summary></p>
+<p>你可以試試大廳的聊天功能，雖然他們可能不會隨時上線。更好的方式是用<a href="https://discord.gg/aPs8RKr">Discord</a>，通常都會看得到。</details></p>
+<p><details><summary>此網站是如何維持運作的?</summary></p>
+<p>全靠贊助 Donate ! 你也可以<a href="https://www.pychess.org/patron">成為贊助者</a> 來支持我們並讓Pychess網站改更好!</details></p>
+<p><details><summary>我可以加入Pychess的行列嗎?</summary></p>
+<p>當然! Pychess 完全開源，在<a href="https://github.com/gbtami/pychess-variants">Github</a>上你可以盡情創作修改，也可以加入我們<a href="https://discord.gg/aPs8RKr">Discord</a>來和大家一起合作!</details></p>
